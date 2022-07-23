@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "CEGYD2CQBhInCbmS9/DaWGVJIrPaGcG9vlgmAriT7swtDAHqfhqvBElZ9RuSL0zfqUJWDD4fCQOaVyl9SJDXlw==",
+  "dgSpecHash": "zMAAUrcA/unPgDor8nsh3SRC4l+O/MTeikegrOLC+NWTj8bgqeHKjKILKPJzGrFYXxkOoTFpcbURVcRw8TCa6A==",
   "success": true,
   "projectFilePath": "/Users/admin/Projects/TimesNewsApp/TimesNewsApp/TimesNewsApp.csproj",
   "expectedPackageFiles": [
+    "/Users/admin/.nuget/packages/communitytoolkit.mvvm/7.1.2/communitytoolkit.mvvm.7.1.2.nupkg.sha512",
     "/Users/admin/.nuget/packages/googlegson/2.9.0.1/googlegson.2.9.0.1.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.extensions.configuration/6.0.1/microsoft.extensions.configuration.6.0.1.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
