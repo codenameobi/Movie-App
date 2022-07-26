@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="TimesNewsApp.app/Contents/MacOS/TimesNewsApp">
+      <BCSymbolMapName>TimesNewsApp.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>TimesNewsApp.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>obj/Debug/net6.0-maccatalyst/maccatalyst-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>TimesNewsApp.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/admin/Projects/TimesNewsApp/TimesNewsApp</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

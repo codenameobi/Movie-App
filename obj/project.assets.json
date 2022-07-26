@@ -129,10 +129,10 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.400": {
+      "Microsoft.Maui.Dependencies/6.0.312": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.403",
+          "Microsoft.Maui.Graphics": "6.0.300",
           "Xamarin.Android.Glide": "4.12.0.8",
           "Xamarin.AndroidX.Browser": "1.4.0.1",
           "Xamarin.AndroidX.Legacy.Support.V4": "1.0.0.13",
@@ -142,11 +142,11 @@
           "Xamarin.AndroidX.Navigation.Runtime": "2.4.2",
           "Xamarin.AndroidX.Navigation.UI": "2.4.2",
           "Xamarin.AndroidX.Security.SecurityCrypto": "1.1.0-alpha03",
-          "Xamarin.Google.Android.Material": "1.6.0",
+          "Xamarin.Google.Android.Material": "1.5.0.2",
           "Xamarin.Google.Crypto.Tink.Android": "1.6.1.6"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.400": {
+      "Microsoft.Maui.Extensions/6.0.312": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -155,7 +155,7 @@
           "Microsoft.Extensions.Logging.Abstractions": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.403": {
+      "Microsoft.Maui.Graphics/6.0.300": {
         "type": "package",
         "compile": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
@@ -1434,7 +1434,7 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Window.targets": {}
         }
       },
-      "Xamarin.Google.Android.Material/1.6.0": {
+      "Xamarin.Google.Android.Material/1.5.0.2": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Annotation": "1.3.0.3",
@@ -1719,10 +1719,10 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.400": {
+      "Microsoft.Maui.Dependencies/6.0.312": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.403",
+          "Microsoft.Maui.Graphics": "6.0.300",
           "Xamarin.Android.Glide": "4.12.0.8",
           "Xamarin.AndroidX.Browser": "1.4.0.1",
           "Xamarin.AndroidX.Legacy.Support.V4": "1.0.0.13",
@@ -1732,11 +1732,11 @@
           "Xamarin.AndroidX.Navigation.Runtime": "2.4.2",
           "Xamarin.AndroidX.Navigation.UI": "2.4.2",
           "Xamarin.AndroidX.Security.SecurityCrypto": "1.1.0-alpha03",
-          "Xamarin.Google.Android.Material": "1.6.0",
+          "Xamarin.Google.Android.Material": "1.5.0.2",
           "Xamarin.Google.Crypto.Tink.Android": "1.6.1.6"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.400": {
+      "Microsoft.Maui.Extensions/6.0.312": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -1745,7 +1745,7 @@
           "Microsoft.Extensions.Logging.Abstractions": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.403": {
+      "Microsoft.Maui.Graphics/6.0.300": {
         "type": "package",
         "compile": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
@@ -3024,7 +3024,7 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Window.targets": {}
         }
       },
-      "Xamarin.Google.Android.Material/1.6.0": {
+      "Xamarin.Google.Android.Material/1.5.0.2": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Annotation": "1.3.0.3",
@@ -3309,10 +3309,10 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.400": {
+      "Microsoft.Maui.Dependencies/6.0.312": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.403",
+          "Microsoft.Maui.Graphics": "6.0.300",
           "Xamarin.Android.Glide": "4.12.0.8",
           "Xamarin.AndroidX.Browser": "1.4.0.1",
           "Xamarin.AndroidX.Legacy.Support.V4": "1.0.0.13",
@@ -3322,11 +3322,11 @@
           "Xamarin.AndroidX.Navigation.Runtime": "2.4.2",
           "Xamarin.AndroidX.Navigation.UI": "2.4.2",
           "Xamarin.AndroidX.Security.SecurityCrypto": "1.1.0-alpha03",
-          "Xamarin.Google.Android.Material": "1.6.0",
+          "Xamarin.Google.Android.Material": "1.5.0.2",
           "Xamarin.Google.Crypto.Tink.Android": "1.6.1.6"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.400": {
+      "Microsoft.Maui.Extensions/6.0.312": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -3335,7 +3335,7 @@
           "Microsoft.Extensions.Logging.Abstractions": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.403": {
+      "Microsoft.Maui.Graphics/6.0.300": {
         "type": "package",
         "compile": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
@@ -4614,7 +4614,7 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Window.targets": {}
         }
       },
-      "Xamarin.Google.Android.Material/1.6.0": {
+      "Xamarin.Google.Android.Material/1.5.0.2": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Annotation": "1.3.0.3",
@@ -4899,10 +4899,10 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.400": {
+      "Microsoft.Maui.Dependencies/6.0.312": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.403",
+          "Microsoft.Maui.Graphics": "6.0.300",
           "Xamarin.Android.Glide": "4.12.0.8",
           "Xamarin.AndroidX.Browser": "1.4.0.1",
           "Xamarin.AndroidX.Legacy.Support.V4": "1.0.0.13",
@@ -4912,11 +4912,11 @@
           "Xamarin.AndroidX.Navigation.Runtime": "2.4.2",
           "Xamarin.AndroidX.Navigation.UI": "2.4.2",
           "Xamarin.AndroidX.Security.SecurityCrypto": "1.1.0-alpha03",
-          "Xamarin.Google.Android.Material": "1.6.0",
+          "Xamarin.Google.Android.Material": "1.5.0.2",
           "Xamarin.Google.Crypto.Tink.Android": "1.6.1.6"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.400": {
+      "Microsoft.Maui.Extensions/6.0.312": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -4925,7 +4925,7 @@
           "Microsoft.Extensions.Logging.Abstractions": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.403": {
+      "Microsoft.Maui.Graphics/6.0.300": {
         "type": "package",
         "compile": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
@@ -6204,7 +6204,7 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Window.targets": {}
         }
       },
-      "Xamarin.Google.Android.Material/1.6.0": {
+      "Xamarin.Google.Android.Material/1.5.0.2": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Annotation": "1.3.0.3",
@@ -6489,10 +6489,10 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.400": {
+      "Microsoft.Maui.Dependencies/6.0.312": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.403",
+          "Microsoft.Maui.Graphics": "6.0.300",
           "Xamarin.Android.Glide": "4.12.0.8",
           "Xamarin.AndroidX.Browser": "1.4.0.1",
           "Xamarin.AndroidX.Legacy.Support.V4": "1.0.0.13",
@@ -6502,11 +6502,11 @@
           "Xamarin.AndroidX.Navigation.Runtime": "2.4.2",
           "Xamarin.AndroidX.Navigation.UI": "2.4.2",
           "Xamarin.AndroidX.Security.SecurityCrypto": "1.1.0-alpha03",
-          "Xamarin.Google.Android.Material": "1.6.0",
+          "Xamarin.Google.Android.Material": "1.5.0.2",
           "Xamarin.Google.Crypto.Tink.Android": "1.6.1.6"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.400": {
+      "Microsoft.Maui.Extensions/6.0.312": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -6515,7 +6515,7 @@
           "Microsoft.Extensions.Logging.Abstractions": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.403": {
+      "Microsoft.Maui.Graphics/6.0.300": {
         "type": "package",
         "compile": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
@@ -7794,7 +7794,7 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Window.targets": {}
         }
       },
-      "Xamarin.Google.Android.Material/1.6.0": {
+      "Xamarin.Google.Android.Material/1.5.0.2": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Annotation": "1.3.0.3",
@@ -8079,10 +8079,10 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.400": {
+      "Microsoft.Maui.Dependencies/6.0.312": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.403",
+          "Microsoft.Maui.Graphics": "6.0.300",
           "Xamarin.Android.Glide": "4.12.0.8",
           "Xamarin.AndroidX.Browser": "1.4.0.1",
           "Xamarin.AndroidX.Legacy.Support.V4": "1.0.0.13",
@@ -8092,11 +8092,11 @@
           "Xamarin.AndroidX.Navigation.Runtime": "2.4.2",
           "Xamarin.AndroidX.Navigation.UI": "2.4.2",
           "Xamarin.AndroidX.Security.SecurityCrypto": "1.1.0-alpha03",
-          "Xamarin.Google.Android.Material": "1.6.0",
+          "Xamarin.Google.Android.Material": "1.5.0.2",
           "Xamarin.Google.Crypto.Tink.Android": "1.6.1.6"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.400": {
+      "Microsoft.Maui.Extensions/6.0.312": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -8105,7 +8105,7 @@
           "Microsoft.Extensions.Logging.Abstractions": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.403": {
+      "Microsoft.Maui.Graphics/6.0.300": {
         "type": "package",
         "compile": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
@@ -9384,7 +9384,7 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Window.targets": {}
         }
       },
-      "Xamarin.Google.Android.Material/1.6.0": {
+      "Xamarin.Google.Android.Material/1.5.0.2": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Annotation": "1.3.0.3",
@@ -9669,10 +9669,10 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.400": {
+      "Microsoft.Maui.Dependencies/6.0.312": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.403",
+          "Microsoft.Maui.Graphics": "6.0.300",
           "Xamarin.Android.Glide": "4.12.0.8",
           "Xamarin.AndroidX.Browser": "1.4.0.1",
           "Xamarin.AndroidX.Legacy.Support.V4": "1.0.0.13",
@@ -9682,11 +9682,11 @@
           "Xamarin.AndroidX.Navigation.Runtime": "2.4.2",
           "Xamarin.AndroidX.Navigation.UI": "2.4.2",
           "Xamarin.AndroidX.Security.SecurityCrypto": "1.1.0-alpha03",
-          "Xamarin.Google.Android.Material": "1.6.0",
+          "Xamarin.Google.Android.Material": "1.5.0.2",
           "Xamarin.Google.Crypto.Tink.Android": "1.6.1.6"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.400": {
+      "Microsoft.Maui.Extensions/6.0.312": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -9695,7 +9695,7 @@
           "Microsoft.Extensions.Logging.Abstractions": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.403": {
+      "Microsoft.Maui.Graphics/6.0.300": {
         "type": "package",
         "compile": {
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
@@ -10974,7 +10974,7 @@
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Window.targets": {}
         }
       },
-      "Xamarin.Google.Android.Material/1.6.0": {
+      "Xamarin.Google.Android.Material/1.5.0.2": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Annotation": "1.3.0.3",
@@ -11250,14 +11250,14 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.400": {
+      "Microsoft.Maui.Dependencies/6.0.312": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.403",
+          "Microsoft.Maui.Graphics": "6.0.300",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.400": {
+      "Microsoft.Maui.Extensions/6.0.312": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -11267,7 +11267,7 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.403": {
+      "Microsoft.Maui.Graphics/6.0.300": {
         "type": "package",
         "compile": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
@@ -11438,14 +11438,14 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.400": {
+      "Microsoft.Maui.Dependencies/6.0.312": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.403",
+          "Microsoft.Maui.Graphics": "6.0.300",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.400": {
+      "Microsoft.Maui.Extensions/6.0.312": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -11455,7 +11455,7 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.403": {
+      "Microsoft.Maui.Graphics/6.0.300": {
         "type": "package",
         "compile": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
@@ -11626,14 +11626,14 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.400": {
+      "Microsoft.Maui.Dependencies/6.0.312": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.403",
+          "Microsoft.Maui.Graphics": "6.0.300",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.400": {
+      "Microsoft.Maui.Extensions/6.0.312": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -11643,7 +11643,7 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.403": {
+      "Microsoft.Maui.Graphics/6.0.300": {
         "type": "package",
         "compile": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
@@ -11814,14 +11814,14 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.400": {
+      "Microsoft.Maui.Dependencies/6.0.312": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.403",
+          "Microsoft.Maui.Graphics": "6.0.300",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.400": {
+      "Microsoft.Maui.Extensions/6.0.312": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -11831,7 +11831,7 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.403": {
+      "Microsoft.Maui.Graphics/6.0.300": {
         "type": "package",
         "compile": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
@@ -12002,14 +12002,14 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.400": {
+      "Microsoft.Maui.Dependencies/6.0.312": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.403",
+          "Microsoft.Maui.Graphics": "6.0.300",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.400": {
+      "Microsoft.Maui.Extensions/6.0.312": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -12019,7 +12019,7 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.403": {
+      "Microsoft.Maui.Graphics/6.0.300": {
         "type": "package",
         "compile": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
@@ -12190,14 +12190,14 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.400": {
+      "Microsoft.Maui.Dependencies/6.0.312": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.403",
+          "Microsoft.Maui.Graphics": "6.0.300",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.400": {
+      "Microsoft.Maui.Extensions/6.0.312": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -12207,7 +12207,7 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.403": {
+      "Microsoft.Maui.Graphics/6.0.300": {
         "type": "package",
         "compile": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
@@ -12378,14 +12378,14 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.400": {
+      "Microsoft.Maui.Dependencies/6.0.312": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.403",
+          "Microsoft.Maui.Graphics": "6.0.300",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.400": {
+      "Microsoft.Maui.Extensions/6.0.312": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -12395,7 +12395,7 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.403": {
+      "Microsoft.Maui.Graphics/6.0.300": {
         "type": "package",
         "compile": {
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
@@ -12566,14 +12566,14 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.400": {
+      "Microsoft.Maui.Dependencies/6.0.312": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.403",
+          "Microsoft.Maui.Graphics": "6.0.300",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.400": {
+      "Microsoft.Maui.Extensions/6.0.312": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -12583,7 +12583,7 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.403": {
+      "Microsoft.Maui.Graphics/6.0.300": {
         "type": "package",
         "compile": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
@@ -12754,14 +12754,14 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.400": {
+      "Microsoft.Maui.Dependencies/6.0.312": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.403",
+          "Microsoft.Maui.Graphics": "6.0.300",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.400": {
+      "Microsoft.Maui.Extensions/6.0.312": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -12771,7 +12771,7 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.403": {
+      "Microsoft.Maui.Graphics/6.0.300": {
         "type": "package",
         "compile": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
@@ -12942,14 +12942,14 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.400": {
+      "Microsoft.Maui.Dependencies/6.0.312": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.403",
+          "Microsoft.Maui.Graphics": "6.0.300",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.400": {
+      "Microsoft.Maui.Extensions/6.0.312": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -12959,7 +12959,7 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.403": {
+      "Microsoft.Maui.Graphics/6.0.300": {
         "type": "package",
         "compile": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
@@ -13130,14 +13130,14 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.400": {
+      "Microsoft.Maui.Dependencies/6.0.312": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.403",
+          "Microsoft.Maui.Graphics": "6.0.300",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.400": {
+      "Microsoft.Maui.Extensions/6.0.312": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -13147,7 +13147,7 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.403": {
+      "Microsoft.Maui.Graphics/6.0.300": {
         "type": "package",
         "compile": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
@@ -13318,14 +13318,14 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.400": {
+      "Microsoft.Maui.Dependencies/6.0.312": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.403",
+          "Microsoft.Maui.Graphics": "6.0.300",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.400": {
+      "Microsoft.Maui.Extensions/6.0.312": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -13335,7 +13335,7 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.403": {
+      "Microsoft.Maui.Graphics/6.0.300": {
         "type": "package",
         "compile": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
@@ -13506,14 +13506,14 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.400": {
+      "Microsoft.Maui.Dependencies/6.0.312": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.403",
+          "Microsoft.Maui.Graphics": "6.0.300",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.400": {
+      "Microsoft.Maui.Extensions/6.0.312": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -13523,7 +13523,7 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.403": {
+      "Microsoft.Maui.Graphics/6.0.300": {
         "type": "package",
         "compile": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
@@ -13694,14 +13694,14 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.400": {
+      "Microsoft.Maui.Dependencies/6.0.312": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.403",
+          "Microsoft.Maui.Graphics": "6.0.300",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.400": {
+      "Microsoft.Maui.Extensions/6.0.312": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -13711,7 +13711,7 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.403": {
+      "Microsoft.Maui.Graphics/6.0.300": {
         "type": "package",
         "compile": {
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
@@ -14016,32 +14016,32 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Maui.Dependencies/6.0.400": {
-      "sha512": "v8L1Ul0xC6dw7PJU4v26Ka9Nd9TCp7vB1etLRfv8QEHkWKxYlHSyJQVWw0YW9ViF69UY2mwwiHpGTSCaygbIhg==",
+    "Microsoft.Maui.Dependencies/6.0.312": {
+      "sha512": "gP9AD+AGTVODdPBFKGazFOynEo/xyZGScs3CKbbgVZUMt+CWWzHXr+0yWPvcIoD8KlNwT2FFoGwMqRYITBkDRA==",
       "type": "package",
-      "path": "microsoft.maui.dependencies/6.0.400",
+      "path": "microsoft.maui.dependencies/6.0.312",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "microsoft.maui.dependencies.6.0.400.nupkg.sha512",
+        "microsoft.maui.dependencies.6.0.312.nupkg.sha512",
         "microsoft.maui.dependencies.nuspec"
       ]
     },
-    "Microsoft.Maui.Extensions/6.0.400": {
-      "sha512": "OvwlpszmHcWupNQvIVcOiGnIgRJze/JtQ/9hzphFG5IHKWmhCTePUEvNxYhcImFQP+vRiusjYm8kThGk9V2E5g==",
+    "Microsoft.Maui.Extensions/6.0.312": {
+      "sha512": "2TMDnvgIK76x6x0bpkwEDSdGUBETUxPBK6SkoERQ2CfeQa8SG7PJLexLASo+foXf8yV79aeBQ0ttoz6+1OlXEw==",
       "type": "package",
-      "path": "microsoft.maui.extensions/6.0.400",
+      "path": "microsoft.maui.extensions/6.0.312",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "microsoft.maui.extensions.6.0.400.nupkg.sha512",
+        "microsoft.maui.extensions.6.0.312.nupkg.sha512",
         "microsoft.maui.extensions.nuspec"
       ]
     },
-    "Microsoft.Maui.Graphics/6.0.403": {
-      "sha512": "U3geHZANTsD8biN1cYOe9E1dU+UuV5mo0hURmLHCXRCTHddZSL0IJYnIF02dLCdCp2mXRGY4elGi789fgRaAlg==",
+    "Microsoft.Maui.Graphics/6.0.300": {
+      "sha512": "R1T1G5oHAydxCaQgj7ZPjwMXK2GJC0/+kDLmwLCdZ5P5rYlXwOW4GcQULAsNWz6jDUaTT7pbAeiKwxI1pVPEQQ==",
       "type": "package",
-      "path": "microsoft.maui.graphics/6.0.403",
+      "path": "microsoft.maui.graphics/6.0.300",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -14067,7 +14067,7 @@
         "lib/xamarin.ios10/Microsoft.Maui.Graphics.pdb",
         "lib/xamarin.mac20/Microsoft.Maui.Graphics.dll",
         "lib/xamarin.mac20/Microsoft.Maui.Graphics.pdb",
-        "microsoft.maui.graphics.6.0.403.nupkg.sha512",
+        "microsoft.maui.graphics.6.0.300.nupkg.sha512",
         "microsoft.maui.graphics.nuspec"
       ]
     },
@@ -15807,10 +15807,10 @@
         "xamarin.androidx.window.nuspec"
       ]
     },
-    "Xamarin.Google.Android.Material/1.6.0": {
-      "sha512": "WOr6K1pt1JeYjK3DbBHjBxPIo7ySxK5zwZssjNLTzW1tbaxo92uemr4Wxog1KTzHbzLAFwnjk361HcIs5EyRRQ==",
+    "Xamarin.Google.Android.Material/1.5.0.2": {
+      "sha512": "H39/gKVVfX33V/DZ5jFLNYAausnp1V2LpqlLtHgzohFx1rzM7j0pVNR6ZDnyFNP1HKwai0tsp60F6S8NaHhnqQ==",
       "type": "package",
-      "path": "xamarin.google.android.material/1.6.0",
+      "path": "xamarin.google.android.material/1.5.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -15827,7 +15827,7 @@
         "lib/net6.0-android31.0/Xamarin.Google.Android.Material.pdb",
         "lib/net6.0-android31.0/Xamarin.Google.Android.Material.xml",
         "proguard/proguard.txt",
-        "xamarin.google.android.material.1.6.0.nupkg.sha512",
+        "xamarin.google.android.material.1.5.0.2.nupkg.sha512",
         "xamarin.google.android.material.nuspec"
       ]
     },
@@ -16023,21 +16023,21 @@
   "projectFileDependencyGroups": {
     "net6.0-android31.0": [
       "CommunityToolkit.Mvvm >= 7.1.2",
-      "Microsoft.Maui.Dependencies >= 6.0.400",
-      "Microsoft.Maui.Extensions >= 6.0.400",
+      "Microsoft.Maui.Dependencies >= 6.0.312",
+      "Microsoft.Maui.Extensions >= 6.0.312",
       "Newtonsoft.Json >= 13.0.1"
     ],
     "net6.0-ios15.4": [
       "CommunityToolkit.Mvvm >= 7.1.2",
-      "Microsoft.Maui.Dependencies >= 6.0.400",
-      "Microsoft.Maui.Extensions >= 6.0.400",
+      "Microsoft.Maui.Dependencies >= 6.0.312",
+      "Microsoft.Maui.Extensions >= 6.0.312",
       "Newtonsoft.Json >= 13.0.1",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1"
     ],
     "net6.0-maccatalyst15.4": [
       "CommunityToolkit.Mvvm >= 7.1.2",
-      "Microsoft.Maui.Dependencies >= 6.0.400",
-      "Microsoft.Maui.Extensions >= 6.0.400",
+      "Microsoft.Maui.Dependencies >= 6.0.312",
+      "Microsoft.Maui.Extensions >= 6.0.312",
       "Newtonsoft.Json >= 13.0.1",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1"
     ]
@@ -16097,12 +16097,12 @@
           },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
-            "version": "[6.0.400, )",
+            "version": "[6.0.312, )",
             "autoReferenced": true
           },
           "Microsoft.Maui.Extensions": {
             "target": "Package",
-            "version": "[6.0.400, )",
+            "version": "[6.0.312, )",
             "autoReferenced": true
           },
           "Newtonsoft.Json": {
@@ -16116,7 +16116,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -16151,7 +16152,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400-preview.22330.6/RuntimeIdentifierGraph.json"
       },
       "net6.0-ios15.4": {
         "targetAlias": "net6.0-ios",
@@ -16162,12 +16163,12 @@
           },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
-            "version": "[6.0.400, )",
+            "version": "[6.0.312, )",
             "autoReferenced": true
           },
           "Microsoft.Maui.Extensions": {
             "target": "Package",
-            "version": "[6.0.400, )",
+            "version": "[6.0.312, )",
             "autoReferenced": true
           },
           "Newtonsoft.Json": {
@@ -16186,7 +16187,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -16207,7 +16209,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400-preview.22330.6/RuntimeIdentifierGraph.json"
       },
       "net6.0-maccatalyst15.4": {
         "targetAlias": "net6.0-maccatalyst",
@@ -16218,12 +16220,12 @@
           },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
-            "version": "[6.0.400, )",
+            "version": "[6.0.312, )",
             "autoReferenced": true
           },
           "Microsoft.Maui.Extensions": {
             "target": "Package",
-            "version": "[6.0.400, )",
+            "version": "[6.0.312, )",
             "autoReferenced": true
           },
           "Newtonsoft.Json": {
@@ -16243,7 +16245,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -16264,7 +16267,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400-preview.22330.6/RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

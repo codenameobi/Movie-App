@@ -1,34 +1,38 @@
-﻿using System;
-using System.Collections.Generic;
-
-using System.Globalization;
+﻿
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
 namespace TimesNewsApp.Models
 {
-	public class NewsModel
-	{
-        [JsonProperty("status")]
-        public string Status { get; set; }
+    // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse);
+    public class Multimedium
+    {
+        [JsonProperty("url")]
+        public string Url { get; set; }
+
+        [JsonProperty("format")]
+        public string Format { get; set; }
+
+        [JsonProperty("height")]
+        public int Height { get; set; }
+
+        [JsonProperty("width")]
+        public int Width { get; set; }
+
+        [JsonProperty("type")]
+        public string Type { get; set; }
+
+        [JsonProperty("subtype")]
+        public string Subtype { get; set; }
+
+        [JsonProperty("caption")]
+        public string Caption { get; set; }
 
         [JsonProperty("copyright")]
         public string Copyright { get; set; }
-
-        [JsonProperty("section")]
-        public string Section { get; set; }
-
-        [JsonProperty("last_updated")]
-        public DateTimeOffset LastUpdated { get; set; }
-
-        [JsonProperty("num_results")]
-        public long NumResults { get; set; }
-
-        [JsonProperty("results")]
-        public Result[] Results { get; set; }
     }
 
-    public partial class Result
+    public class Result
     {
         [JsonProperty("section")]
         public string Section { get; set; }
@@ -52,78 +56,61 @@ namespace TimesNewsApp.Models
         public string Byline { get; set; }
 
         [JsonProperty("item_type")]
-        public ItemType ItemType { get; set; }
+        public string ItemType { get; set; }
 
         [JsonProperty("updated_date")]
-        public DateTimeOffset UpdatedDate { get; set; }
+        public DateTime UpdatedDate { get; set; }
 
         [JsonProperty("created_date")]
-        public DateTimeOffset CreatedDate { get; set; }
+        public DateTime CreatedDate { get; set; }
 
         [JsonProperty("published_date")]
-        public DateTimeOffset PublishedDate { get; set; }
+        public DateTime PublishedDate { get; set; }
 
         [JsonProperty("material_type_facet")]
         public string MaterialTypeFacet { get; set; }
 
         [JsonProperty("kicker")]
-        public Kicker Kicker { get; set; }
+        public string Kicker { get; set; }
 
         [JsonProperty("des_facet")]
-        public string[] DesFacet { get; set; }
+        public List<string> DesFacet { get; set; }
 
         [JsonProperty("org_facet")]
-        public string[] OrgFacet { get; set; }
+        public List<string> OrgFacet { get; set; }
 
         [JsonProperty("per_facet")]
-        public string[] PerFacet { get; set; }
+        public List<string> PerFacet { get; set; }
 
         [JsonProperty("geo_facet")]
-        public string[] GeoFacet { get; set; }
+        public List<string> GeoFacet { get; set; }
 
         [JsonProperty("multimedia")]
-        public Multimedia[] Multimedia { get; set; }
+        public List<Multimedium> Multimedia { get; set; }
 
         [JsonProperty("short_url")]
         public string ShortUrl { get; set; }
     }
 
-    public partial class Multimedia
+    public class NewsModel
     {
-        [JsonProperty("url")]
-        public Uri Url { get; set; }
-
-        [JsonProperty("format")]
-        public Format Format { get; set; }
-
-        [JsonProperty("height")]
-        public long Height { get; set; }
-
-        [JsonProperty("width")]
-        public long Width { get; set; }
-
-        [JsonProperty("type")]
-        public TypeEnum Type { get; set; }
-
-        [JsonProperty("subtype")]
-        public Subtype Subtype { get; set; }
-
-        [JsonProperty("caption")]
-        public string Caption { get; set; }
+        [JsonProperty("status")]
+        public string Status { get; set; }
 
         [JsonProperty("copyright")]
         public string Copyright { get; set; }
+
+        [JsonProperty("section")]
+        public string Section { get; set; }
+
+        [JsonProperty("last_updated")]
+        public DateTime LastUpdated { get; set; }
+
+        [JsonProperty("num_results")]
+        public int NumResults { get; set; }
+
+        [JsonProperty("results")]
+        public List<Result> Results { get; set; }
     }
-
-    public enum ItemType { Article, Interactive, Promo };
-
-    public enum Kicker { Empty, Letter266, TheSaturdayProfile };
-
-    public enum Format { LargeThumbnail, SuperJumbo, ThreeByTwoSmallAt2X };
-
-    public enum Subtype { Photo };
-
-    public enum TypeEnum { Image };
 }
 
-    

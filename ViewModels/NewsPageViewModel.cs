@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
+using Newtonsoft.Json;
 using TimesNewsApp.Models;
 using TimesNewsApp.Services;
 
@@ -8,7 +9,7 @@ namespace TimesNewsApp.ViewModels
 {
 	public class NewsPageViewModel : BaseViewModel
 	{
-        public ObservableCollection<NewsModel> News { get; } = new();
+        public ObservableCollection<Result> News { get; } = new();
 		NewsApiManager apiService;
 
         public Command GetNewsComand { get; }
@@ -34,7 +35,7 @@ namespace TimesNewsApp.ViewModels
                 if (News.Count != 0)
                     News.Clear();
 
-                foreach (var item in news)
+                foreach (var item in news.Results)
                     News.Add(item);
             }
             catch (Exception ex)

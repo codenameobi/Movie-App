@@ -1,4 +1,7 @@
-﻿namespace TimesNewsApp;
+﻿using TimesNewsApp.Services;
+using TimesNewsApp.ViewModels;
+
+namespace TimesNewsApp;
 
 public static class MauiProgram
 {
@@ -13,7 +16,13 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
 
-		return builder.Build();
+        builder.Services.AddSingleton<NewsApiManager>();
+
+        builder.Services.AddTransient<MainPage>();
+        builder.Services.AddTransient<NewsPageViewModel>();
+        builder.Services.AddTransient<MovieReviewPage>();
+
+        return builder.Build();
 	}
 }
 
