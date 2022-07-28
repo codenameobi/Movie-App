@@ -1,5 +1,6 @@
 ﻿using TimesNewsApp.Services;
 using TimesNewsApp.ViewModels;
+using TimesNewsApp.Views;
 
 namespace TimesNewsApp;
 
@@ -21,6 +22,8 @@ public static class MauiProgram
         builder.Services.AddTransient<MainPage>();
         builder.Services.AddTransient<NewsPageViewModel>();
         builder.Services.AddTransient<MovieReviewPage>();
+        builder.Services.AddTransient<MovieSearchPage>();
+        builder.Services.AddTransient<MoviesViewModel>();
 
         return builder.Build();
 	}

@@ -230,6 +230,8 @@
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/resizetizer/r/dotnet_bot.png
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/resizetizer/r/dotnet_bot@2x.png
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/resizetizer/r/dotnet_bot@3x.png
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/icon1.png
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/icon2.png
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/mauiimage.stamp
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/resizetizer/f/MauiInfo.plist
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/mauifont.stamp
@@ -255,5 +257,3 @@
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/TimesNewsApp.pdb
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/TimesNewsApp.genruntimeconfig.cache
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/ref/TimesNewsApp.dll
-/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/icon1.png
-/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/icon2.png

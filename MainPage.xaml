@@ -22,7 +22,7 @@
                         <Grid Padding="10">
                             <Frame HeightRequest="125" Style="{StaticResource CardView}">
                                 <Grid Padding="0" ColumnDefinitions="125,*">
-                                    <Image x:DataType="model:Multimedium" Aspect="AspectFill" Source="{Binding Url}"
+                                    <BoxView  Color="Red"
                                            WidthRequest="125"
                                            HeightRequest="125"/>
                                     <StackLayout
