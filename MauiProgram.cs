@@ -20,7 +20,7 @@ public static class MauiProgram
         builder.Services.AddSingleton<NewsApiManager>();
 
         builder.Services.AddTransient<MainPage>();
-        builder.Services.AddTransient<NewsPageViewModel>();
+        builder.Services.AddTransient<PopularMoviePageViewModel>();
         builder.Services.AddTransient<MovieReviewPage>();
         builder.Services.AddTransient<MovieSearchPage>();
         builder.Services.AddTransient<MoviesViewModel>();

@@ -1,38 +1,32 @@
 ﻿using System;
 namespace TimesNewsApp.Models
 {
-    // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse);
-    public class Rating
+    public class Result
     {
-        public string Source { get; set; }
-        public string Value { get; set; }
+        public bool adult { get; set; }
+        public string backdrop_path { get; set; }
+        public List<int> genre_ids { get; set; }
+        public int id { get; set; }
+        public string original_language { get; set; }
+        public string original_title { get; set; }
+        public string overview { get; set; }
+        public double popularity { get; set; }
+        public string poster_path { get; set; } 
+        public string release_date { get; set; }
+        public string title { get; set; }
+        public bool video { get; set; }
+        public double vote_average { get; set; }
+        public int vote_count { get; set; }
     }
 
     public class Movie
     {
-        public string Title { get; set; }
-        public string Year { get; set; }
-        public string Rated { get; set; }
-        public string Released { get; set; }
-        public string Runtime { get; set; }
-        public string Genre { get; set; }
-        public string Director { get; set; }
-        public string Writer { get; set; }
-        public string Actors { get; set; }
-        public string Plot { get; set; }
-        public string Language { get; set; }
-        public string Country { get; set; }
-        public string Awards { get; set; }
-        public string Poster { get; set; }
-        public List<Rating> Ratings { get; set; }
-        public string Metascore { get; set; }
-        public string imdbRating { get; set; }
-        public string imdbVotes { get; set; }
-        public string imdbID { get; set; }
-        public string Type { get; set; }
-        public string totalSeasons { get; set; }
-        public string Response { get; set; }
+        public int page { get; set; }
+        public List<Result> results { get; set; }
+        public int total_pages { get; set; }
+        public int total_results { get; set; }
     }
+
 
 }
 

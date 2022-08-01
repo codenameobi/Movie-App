@@ -70,5 +70,8 @@
 	  <MauiXaml Update="Views\MovieSearchPage.xaml">
 	    <SubType></SubType>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\MovieDetailsPage.xaml">
+	    <SubType></SubType>
+	  </MauiXaml>
 	</ItemGroup>
 </Project>

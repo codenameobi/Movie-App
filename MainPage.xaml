@@ -4,7 +4,7 @@
              x:Class="TimesNewsApp.MainPage"
              xmlns:model="clr-namespace:TimesNewsApp.Models"
              xmlns:viewmodel="clr-namespace:TimesNewsApp.ViewModels"
-             x:DataType="viewmodel:NewsPageViewModel"
+             x:DataType="viewmodel:PopularMoviePageViewModel"
              BackgroundColor="{DynamicResource Light}"
              Title="{Binding Title}">
     <Grid
@@ -13,23 +13,25 @@
             RowDefinitions="*,Auto"
             RowSpacing="0">
 
-            <CollectionView ItemsSource="{Binding News}"
+            <CollectionView ItemsSource="{Binding Movie}"
                             SelectionMode="None"
                             Grid.ColumnSpan="2">
 
                 <CollectionView.ItemTemplate>
                     <DataTemplate x:DataType="model:Result">
                         <Grid Padding="10">
-                            <Frame HeightRequest="125" Style="{StaticResource CardView}">
-                                <Grid Padding="0" ColumnDefinitions="125,*">
-                                    <BoxView  Color="Red"
-                                           WidthRequest="125"
-                                           HeightRequest="125"/>
+                            <Frame>
+                                <Grid Padding="0" RowDefinitions="200,*">
+                                    <Image Source="{Binding poster_path, StringFormat= 'https://image.tmdb.org/t/p/original/{0}'}"
+                                           Grid.Row="0"
+                                           Aspect="AspectFill"
+                                           WidthRequest="150"
+                                           HeightRequest="225"/>
                                     <StackLayout
-                                        Grid.Column="1"
+                                        Grid.Row="1"
                                         Padding="10"
                                         VerticalOptions="Center">
-                                    <Label Style="{StaticResource LargeLabel}" Text="{Binding Title}"/>
+                                    <Label Text="{Binding title}" FontSize="Title"/>
                                     </StackLayout>
                                 </Grid>
                             </Frame>
@@ -42,7 +44,6 @@
                     IsEnabled="{Binding IsNotBusy}"
                     Grid.Row="1"
                     Grid.Column="0"
-                    Style="{StaticResource ButtonOutline}"
                     Margin="8"/>
 
             <ActivityIndicator IsVisible="{Binding IsBusy}"

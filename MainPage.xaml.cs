@@ -4,9 +4,7 @@ namespace TimesNewsApp;
 
 public partial class MainPage : ContentPage
 {
-	int count = 0;
-
-	public MainPage(NewsPageViewModel vm)
+	public MainPage(PopularMoviePageViewModel vm)
 	{
 		InitializeComponent();
 		BindingContext = vm;
