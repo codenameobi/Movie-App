@@ -54,6 +54,10 @@
               "target": "Package",
               "version": "[7.1.2, )"
             },
+            "IdentityModel.OidcClient": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
               "version": "[6.0.312, )",
@@ -120,6 +124,10 @@
               "target": "Package",
               "version": "[7.1.2, )"
             },
+            "IdentityModel.OidcClient": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
               "version": "[6.0.312, )",
@@ -176,6 +184,10 @@
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[7.1.2, )"
+            },
+            "IdentityModel.OidcClient": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",

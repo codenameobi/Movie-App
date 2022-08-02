@@ -14,13 +14,15 @@
             RowSpacing="0">
 
             <CollectionView ItemsSource="{Binding Movie}"
-                            SelectionMode="None"
-                            Grid.ColumnSpan="2">
+                            Grid.ColumnSpan="2"
+                            SelectionMode="Single"
+                            SelectedItem="{Binding SelectedMovieItem}"
+                            SelectionChangedCommand="{Binding SelectionChangedCommand}">
 
                 <CollectionView.ItemTemplate>
                     <DataTemplate x:DataType="model:Result">
                         <Grid Padding="10">
-                            <Frame>
+                            <Frame Style="{StaticResource CardView}">
                                 <Grid Padding="0" RowDefinitions="200,*">
                                     <Image Source="{Binding poster_path, StringFormat= 'https://image.tmdb.org/t/p/original/{0}'}"
                                            Grid.Row="0"
@@ -31,7 +33,7 @@
                                         Grid.Row="1"
                                         Padding="10"
                                         VerticalOptions="Center">
-                                    <Label Text="{Binding title}" FontSize="Title"/>
+                                    <Label Text="{Binding title}" Style="{StaticResource infoLabelStyle}"/>
                                     </StackLayout>
                                 </Grid>
                             </Frame>
@@ -39,8 +41,8 @@
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
-            <Button Text="Get Monkeys"
-                    Command="{Binding GetNewsComand}"
+            <Button Text="Get Movies"
+                    Command="{Binding GetMoviesComand}"
                     IsEnabled="{Binding IsNotBusy}"
                     Grid.Row="1"
                     Grid.Column="0"

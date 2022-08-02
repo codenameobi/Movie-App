@@ -20,6 +20,28 @@
           "lib/net6.0-android31.0/GoogleGson.dll": {}
         }
       },
+      "IdentityModel/5.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/IdentityModel.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/IdentityModel.dll": {}
+        }
+      },
+      "IdentityModel.OidcClient/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityModel": "5.2.0",
+          "Microsoft.Extensions.Logging": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -1608,6 +1630,28 @@
         },
         "runtime": {
           "lib/net6.0-android31.0/GoogleGson.dll": {}
+        }
+      },
+      "IdentityModel/5.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/IdentityModel.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/IdentityModel.dll": {}
+        }
+      },
+      "IdentityModel.OidcClient/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityModel": "5.2.0",
+          "Microsoft.Extensions.Logging": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/6.0.1": {
@@ -3200,6 +3244,28 @@
           "lib/net6.0-android31.0/GoogleGson.dll": {}
         }
       },
+      "IdentityModel/5.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/IdentityModel.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/IdentityModel.dll": {}
+        }
+      },
+      "IdentityModel.OidcClient/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityModel": "5.2.0",
+          "Microsoft.Extensions.Logging": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -4788,6 +4854,28 @@
         },
         "runtime": {
           "lib/net6.0-android31.0/GoogleGson.dll": {}
+        }
+      },
+      "IdentityModel/5.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/IdentityModel.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/IdentityModel.dll": {}
+        }
+      },
+      "IdentityModel.OidcClient/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityModel": "5.2.0",
+          "Microsoft.Extensions.Logging": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/6.0.1": {
@@ -6380,6 +6468,28 @@
           "lib/net6.0-android31.0/GoogleGson.dll": {}
         }
       },
+      "IdentityModel/5.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/IdentityModel.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/IdentityModel.dll": {}
+        }
+      },
+      "IdentityModel.OidcClient/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityModel": "5.2.0",
+          "Microsoft.Extensions.Logging": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -7968,6 +8078,28 @@
         },
         "runtime": {
           "lib/net6.0-android31.0/GoogleGson.dll": {}
+        }
+      },
+      "IdentityModel/5.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/IdentityModel.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/IdentityModel.dll": {}
+        }
+      },
+      "IdentityModel.OidcClient/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityModel": "5.2.0",
+          "Microsoft.Extensions.Logging": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/6.0.1": {
@@ -9560,6 +9692,28 @@
           "lib/net6.0-android31.0/GoogleGson.dll": {}
         }
       },
+      "IdentityModel/5.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/IdentityModel.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/IdentityModel.dll": {}
+        }
+      },
+      "IdentityModel.OidcClient/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityModel": "5.2.0",
+          "Microsoft.Extensions.Logging": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -11141,6 +11295,28 @@
           "lib/net5.0/CommunityToolkit.Mvvm.dll": {}
         }
       },
+      "IdentityModel/5.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/IdentityModel.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/IdentityModel.dll": {}
+        }
+      },
+      "IdentityModel.OidcClient/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityModel": "5.2.0",
+          "Microsoft.Extensions.Logging": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -11327,6 +11503,28 @@
         },
         "runtime": {
           "lib/net5.0/CommunityToolkit.Mvvm.dll": {}
+        }
+      },
+      "IdentityModel/5.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/IdentityModel.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/IdentityModel.dll": {}
+        }
+      },
+      "IdentityModel.OidcClient/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityModel": "5.2.0",
+          "Microsoft.Extensions.Logging": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/6.0.1": {
@@ -11517,6 +11715,28 @@
           "lib/net5.0/CommunityToolkit.Mvvm.dll": {}
         }
       },
+      "IdentityModel/5.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/IdentityModel.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/IdentityModel.dll": {}
+        }
+      },
+      "IdentityModel.OidcClient/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityModel": "5.2.0",
+          "Microsoft.Extensions.Logging": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -11703,6 +11923,28 @@
         },
         "runtime": {
           "lib/net5.0/CommunityToolkit.Mvvm.dll": {}
+        }
+      },
+      "IdentityModel/5.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/IdentityModel.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/IdentityModel.dll": {}
+        }
+      },
+      "IdentityModel.OidcClient/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityModel": "5.2.0",
+          "Microsoft.Extensions.Logging": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/6.0.1": {
@@ -11893,6 +12135,28 @@
           "lib/net5.0/CommunityToolkit.Mvvm.dll": {}
         }
       },
+      "IdentityModel/5.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/IdentityModel.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/IdentityModel.dll": {}
+        }
+      },
+      "IdentityModel.OidcClient/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityModel": "5.2.0",
+          "Microsoft.Extensions.Logging": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -12079,6 +12343,28 @@
         },
         "runtime": {
           "lib/net5.0/CommunityToolkit.Mvvm.dll": {}
+        }
+      },
+      "IdentityModel/5.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/IdentityModel.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/IdentityModel.dll": {}
+        }
+      },
+      "IdentityModel.OidcClient/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityModel": "5.2.0",
+          "Microsoft.Extensions.Logging": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/6.0.1": {
@@ -12269,6 +12555,28 @@
           "lib/net5.0/CommunityToolkit.Mvvm.dll": {}
         }
       },
+      "IdentityModel/5.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/IdentityModel.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/IdentityModel.dll": {}
+        }
+      },
+      "IdentityModel.OidcClient/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityModel": "5.2.0",
+          "Microsoft.Extensions.Logging": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -12455,6 +12763,28 @@
         },
         "runtime": {
           "lib/net5.0/CommunityToolkit.Mvvm.dll": {}
+        }
+      },
+      "IdentityModel/5.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/IdentityModel.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/IdentityModel.dll": {}
+        }
+      },
+      "IdentityModel.OidcClient/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityModel": "5.2.0",
+          "Microsoft.Extensions.Logging": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/6.0.1": {
@@ -12645,6 +12975,28 @@
           "lib/net5.0/CommunityToolkit.Mvvm.dll": {}
         }
       },
+      "IdentityModel/5.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/IdentityModel.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/IdentityModel.dll": {}
+        }
+      },
+      "IdentityModel.OidcClient/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityModel": "5.2.0",
+          "Microsoft.Extensions.Logging": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -12831,6 +13183,28 @@
         },
         "runtime": {
           "lib/net5.0/CommunityToolkit.Mvvm.dll": {}
+        }
+      },
+      "IdentityModel/5.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/IdentityModel.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/IdentityModel.dll": {}
+        }
+      },
+      "IdentityModel.OidcClient/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityModel": "5.2.0",
+          "Microsoft.Extensions.Logging": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/6.0.1": {
@@ -13021,6 +13395,28 @@
           "lib/net5.0/CommunityToolkit.Mvvm.dll": {}
         }
       },
+      "IdentityModel/5.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/IdentityModel.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/IdentityModel.dll": {}
+        }
+      },
+      "IdentityModel.OidcClient/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityModel": "5.2.0",
+          "Microsoft.Extensions.Logging": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -13207,6 +13603,28 @@
         },
         "runtime": {
           "lib/net5.0/CommunityToolkit.Mvvm.dll": {}
+        }
+      },
+      "IdentityModel/5.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/IdentityModel.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/IdentityModel.dll": {}
+        }
+      },
+      "IdentityModel.OidcClient/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityModel": "5.2.0",
+          "Microsoft.Extensions.Logging": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/6.0.1": {
@@ -13397,6 +13815,28 @@
           "lib/net5.0/CommunityToolkit.Mvvm.dll": {}
         }
       },
+      "IdentityModel/5.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/IdentityModel.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/IdentityModel.dll": {}
+        }
+      },
+      "IdentityModel.OidcClient/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityModel": "5.2.0",
+          "Microsoft.Extensions.Logging": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -13583,6 +14023,28 @@
         },
         "runtime": {
           "lib/net5.0/CommunityToolkit.Mvvm.dll": {}
+        }
+      },
+      "IdentityModel/5.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/IdentityModel.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/IdentityModel.dll": {}
+        }
+      },
+      "IdentityModel.OidcClient/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityModel": "5.2.0",
+          "Microsoft.Extensions.Logging": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.OidcClient.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/6.0.1": {
@@ -13807,6 +14269,44 @@
         "lib/net6.0-android31.0/GoogleGson.aar",
         "lib/net6.0-android31.0/GoogleGson.dll",
         "lib/net6.0-android31.0/GoogleGson.xml"
+      ]
+    },
+    "IdentityModel/5.2.0": {
+      "sha512": "nuhkbaDH9l5QzNJp2MtP3qio57MPtiRneUN8Ocr7od0JvSYaIe3gBj/vxllr11S/Qvu1AG4GZXoyv5469ewYDA==",
+      "type": "package",
+      "path": "identitymodel/5.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.jpg",
+        "identitymodel.5.2.0.nupkg.sha512",
+        "identitymodel.nuspec",
+        "lib/net461/IdentityModel.dll",
+        "lib/net461/IdentityModel.pdb",
+        "lib/net461/IdentityModel.xml",
+        "lib/net472/IdentityModel.dll",
+        "lib/net472/IdentityModel.pdb",
+        "lib/net472/IdentityModel.xml",
+        "lib/net5.0/IdentityModel.dll",
+        "lib/net5.0/IdentityModel.pdb",
+        "lib/net5.0/IdentityModel.xml",
+        "lib/netstandard2.0/IdentityModel.dll",
+        "lib/netstandard2.0/IdentityModel.pdb",
+        "lib/netstandard2.0/IdentityModel.xml"
+      ]
+    },
+    "IdentityModel.OidcClient/5.0.0": {
+      "sha512": "4KTG0+M3UBxr0UraGo8MfqEGT9MeMDtaBvPyZccmwW+JH+UG3psW5IVITKgobpgWmK+OKoE2FQQ4XBlaLfyCyw==",
+      "type": "package",
+      "path": "identitymodel.oidcclient/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.jpg",
+        "identitymodel.oidcclient.5.0.0.nupkg.sha512",
+        "identitymodel.oidcclient.nuspec",
+        "lib/netstandard2.0/IdentityModel.OidcClient.dll",
+        "lib/netstandard2.0/IdentityModel.OidcClient.xml"
       ]
     },
     "Microsoft.Extensions.Configuration/6.0.1": {
@@ -16023,12 +16523,14 @@
   "projectFileDependencyGroups": {
     "net6.0-android31.0": [
       "CommunityToolkit.Mvvm >= 7.1.2",
+      "IdentityModel.OidcClient >= 5.0.0",
       "Microsoft.Maui.Dependencies >= 6.0.312",
       "Microsoft.Maui.Extensions >= 6.0.312",
       "Newtonsoft.Json >= 13.0.1"
     ],
     "net6.0-ios15.4": [
       "CommunityToolkit.Mvvm >= 7.1.2",
+      "IdentityModel.OidcClient >= 5.0.0",
       "Microsoft.Maui.Dependencies >= 6.0.312",
       "Microsoft.Maui.Extensions >= 6.0.312",
       "Newtonsoft.Json >= 13.0.1",
@@ -16036,6 +16538,7 @@
     ],
     "net6.0-maccatalyst15.4": [
       "CommunityToolkit.Mvvm >= 7.1.2",
+      "IdentityModel.OidcClient >= 5.0.0",
       "Microsoft.Maui.Dependencies >= 6.0.312",
       "Microsoft.Maui.Extensions >= 6.0.312",
       "Newtonsoft.Json >= 13.0.1",
@@ -16094,6 +16597,10 @@
           "CommunityToolkit.Mvvm": {
             "target": "Package",
             "version": "[7.1.2, )"
+          },
+          "IdentityModel.OidcClient": {
+            "target": "Package",
+            "version": "[5.0.0, )"
           },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
@@ -16161,6 +16668,10 @@
             "target": "Package",
             "version": "[7.1.2, )"
           },
+          "IdentityModel.OidcClient": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
             "version": "[6.0.312, )",
@@ -16217,6 +16728,10 @@
           "CommunityToolkit.Mvvm": {
             "target": "Package",
             "version": "[7.1.2, )"
+          },
+          "IdentityModel.OidcClient": {
+            "target": "Package",
+            "version": "[5.0.0, )"
           },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",

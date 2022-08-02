@@ -1,5 +1,7 @@
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-ios/iossimulator-x64/publish/../TimesNewsApp.app/icudt.dat
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-ios/iossimulator-x64/publish/../TimesNewsApp.app/CommunityToolkit.Mvvm.dll
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-ios/iossimulator-x64/publish/../TimesNewsApp.app/IdentityModel.dll
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-ios/iossimulator-x64/publish/../TimesNewsApp.app/IdentityModel.OidcClient.dll
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-ios/iossimulator-x64/publish/../TimesNewsApp.app/Microsoft.Extensions.Configuration.dll
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-ios/iossimulator-x64/publish/../TimesNewsApp.app/Microsoft.Extensions.Configuration.Abstractions.dll
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-ios/iossimulator-x64/publish/../TimesNewsApp.app/Microsoft.Extensions.DependencyInjection.dll

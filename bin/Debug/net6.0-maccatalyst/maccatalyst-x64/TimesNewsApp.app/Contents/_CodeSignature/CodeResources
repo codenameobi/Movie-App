@@ -62,6 +62,20 @@
 			XOjqfhyK3YMQE6PgqHMACAtENB2nzaSc2mgmb0ZZrPM=
 			</data>
 		</dict>
+		<key>MonoBundle/IdentityModel.OidcClient.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7QeEQiwPR4WUl1Ltj+GdiZOxVL9nAaz501Yp+avcUwk=
+			</data>
+		</dict>
+		<key>MonoBundle/IdentityModel.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5REMYTQ0L37CymXwWYDcggUdAvnzu1ORuhHuRWjjvH0=
+			</data>
+		</dict>
 		<key>MonoBundle/Microsoft.CSharp.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -1319,14 +1333,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/RHJKc+NhdiNZdaA6iD+yBA1ACoXt5+0gp26yKzsv98=
+			LJI9Pzdqxm1D6lQzAeu1zO5qrA98LnpU47NNL84xzsY=
 			</data>
 		</dict>
 		<key>MonoBundle/TimesNewsApp.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			F+NBkCWm1S+OYwAsGzYnOfPiQtYwcpKMwPGR1jBAP6k=
+			ndL400AdhIo8yQQtnuLBEzQm8rTPqsYLuVrc1v3/320=
 			</data>
 		</dict>
 		<key>MonoBundle/WindowsBase.dll</key>

@@ -19,7 +19,6 @@ background;obj/Debug/net6.0-android/resizetizer/r/mipmap-anydpi-v26/appicon_roun
 background;obj/Debug/net6.0-android/resizetizer/r/mipmap-anydpi-v26/appicon.xml
 cache-path;/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/lp/155/jl/res/xml/microsoft_maui_essentials_fileprovider_file_paths.xml
 color;/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/lp/154/jl/res/values/colors.xml
-color;obj/Debug/net6.0-android/res/resources/values/maui_colors.xml
 color;obj/Debug/net6.0-android/res/values/colors.xml
 com.google.android.material.appbar.AppBarLayout;/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/lp/151/jl/res/layout/flyoutcontent.xml
 com.google.android.material.appbar.AppBarLayout;/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/lp/151/jl/res/layout/shellcontent.xml

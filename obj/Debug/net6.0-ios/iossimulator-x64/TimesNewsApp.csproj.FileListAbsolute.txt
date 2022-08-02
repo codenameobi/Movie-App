@@ -267,3 +267,11 @@
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-ios/iossimulator-x64/TimesNewsApp.pdb
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-ios/iossimulator-x64/TimesNewsApp.genruntimeconfig.cache
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-ios/iossimulator-x64/ref/TimesNewsApp.dll
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-ios/iossimulator-x64/resizetizer/r/splash2.png
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-ios/iossimulator-x64/resizetizer/r/splash2@2x.png
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-ios/iossimulator-x64/resizetizer/r/splash2@3x.png
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-ios/iossimulator-x64/resizetizer/r/splash3.png
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-ios/iossimulator-x64/resizetizer/r/splash3@2x.png
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-ios/iossimulator-x64/resizetizer/r/splash3@3x.png
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-ios/iossimulator-x64/IdentityModel.dll
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-ios/iossimulator-x64/IdentityModel.OidcClient.dll

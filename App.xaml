@@ -9,6 +9,24 @@
                 <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
             </ResourceDictionary.MergedDictionaries>
+
+            <Color x:Key="bgColor">#C0C0C0</Color>
+            <Color x:Key="fgColor">#0000AD</Color>
+            <x:Double x:Key="fontSize">20</x:Double>
+
+            <Style x:Key="CardView" TargetType="Frame">
+                <Setter Property="WidthRequest" Value="250" />
+                <Setter Property="HeightRequest" Value="300"/>
+                <Setter Property="CornerRadius" Value="10"/>
+            </Style>
+
+            <Style x:Key="baseLabelStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="{StaticResource fontSize}" />
+            </Style>
+            <Style x:Key="infoLabelStyle" BasedOn="{StaticResource baseLabelStyle}" TargetType="Label">
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            </Style>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

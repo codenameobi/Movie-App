@@ -257,3 +257,5 @@
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/TimesNewsApp.pdb
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/TimesNewsApp.genruntimeconfig.cache
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/ref/TimesNewsApp.dll
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-maccatalyst/maccatalyst-x64/IdentityModel.dll
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-maccatalyst/maccatalyst-x64/IdentityModel.OidcClient.dll

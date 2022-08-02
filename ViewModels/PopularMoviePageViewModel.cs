@@ -1,18 +1,31 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
+using CommunityToolkit.Mvvm.ComponentModel;
 using Newtonsoft.Json;
 using TimesNewsApp.Models;
 using TimesNewsApp.Services;
+using TimesNewsApp.Views;
 
 namespace TimesNewsApp.ViewModels
 {
 	public class PopularMoviePageViewModel : BaseViewModel
 	{
         public ObservableCollection<Result> Movie { get; } = new();
-		NewsApiManager apiService;
 
-        public Command GetNewsComand { get; }
+        private Result _selectedMovieItem;
+
+        public Result SelectedMovieItem
+        {
+            get => _selectedMovieItem;
+            set => SetProperty(ref _selectedMovieItem, value);
+        }
+
+        NewsApiManager apiService;
+
+        public Command GetMoviesComand { get; }
+        public Command SelectionChangedCommand { get; }
+
 
         public PopularMoviePageViewModel(NewsApiManager apiService)
 		{
@@ -20,7 +33,18 @@ namespace TimesNewsApp.ViewModels
              
             Title = "Popluar Movies";
             this.apiService = apiService;
-            GetNewsComand = new Command(async () => await GetMovieAsync());
+            GetMoviesComand = new Command(async () => await GetMovieAsync());
+            SelectionChangedCommand = new Command(SelectedMovie);
+        }
+
+        async void SelectedMovie()
+        {
+            if (SelectedMovieItem == null)
+                return;
+            Console.WriteLine(SelectedMovieItem);
+
+            var route = $"{nameof(MovieDetailsPage)}?Movie={SelectedMovieItem}";
+            await Shell.Current.GoToAsync(route);
         }
 
         async Task GetMovieAsync()

@@ -1,34 +1,41 @@
 ﻿<Properties StartupConfiguration="{CABFCFA9-357E-4DBC-B602-A3B5E57EDD38}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Models/Movie.cs">
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_4_xl_-_api_30" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ViewModels/PopularMoviePageViewModel.cs">
     <Files>
       <File FileName="../../../../../usr/local/share/dotnet/packs/Microsoft.Maui.Resizetizer.Sdk/6.0.312/targets/Microsoft.Maui.Resizetizer.targets" Line="516" Column="9" />
-      <File FileName="MauiProgram.cs" Line="21" Column="1" />
-      <File FileName="AppShell.xaml" Line="14" Column="117" />
-      <File FileName="App.xaml" Line="1" Column="1" />
-      <File FileName="MainPage.xaml" Line="16" Column="56" />
-      <File FileName="Services/NewsApiManager.cs" Line="10" Column="86" />
-      <File FileName="Views/MovieSearchPage.xaml" Line="48" Column="29" />
-      <File FileName="ViewModels/MoviesViewModel.cs" Line="39" Column="11" />
-      <File FileName="ViewModels/NewsPageViewModel.cs" Line="40" Column="14" />
+      <File FileName="MauiProgram.cs" Line="16" Column="56" />
+      <File FileName="Services/NewsApiManager.cs" Line="43" Column="1" />
       <File FileName="ViewModels/BaseViewModel.cs" Line="12" Column="9" />
-      <File FileName="MovieReviewPage.xaml" Line="1" Column="1" />
       <File FileName="Views/MovieSearchPage.xaml.cs" Line="10" Column="23" />
       <File FileName="MainPage.xaml.cs" Line="15" Column="1" />
       <File FileName="Models/Movie.cs" Line="22" Column="5" />
       <File FileName="Platforms/iOS/Program.cs" Line="13" Column="1" />
+      <File FileName="ViewModels/SearchMoviePageViewModel.cs" Line="3" Column="26" />
+      <File FileName="ViewModels/PopularMoviePageViewModel.cs" Line="53" Column="38" />
+      <File FileName="Views/MovieDetailsPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="AppShell.xaml.cs" Line="16" Column="1" />
+      <File FileName="ViewModels/MovieDetailsPageViewModel.cs" Line="18" Column="1" />
+      <File FileName="App.xaml.cs" Line="1" Column="1" />
+      <File FileName="AppShell.xaml" Line="1" Column="1" />
+      <File FileName="App.xaml" Line="18" Column="63" />
+      <File FileName="MainPage.xaml" Line="20" Column="87" />
+      <File FileName="Views/MovieSearchPage.xaml" Line="51" Column="19" />
+      <File FileName="MovieReviewPage.xaml" Line="1" Column="1" />
+      <File FileName="Views/MovieDetailsPage.xaml" Line="1" Column="1" />
+      <File FileName="Resources/Styles/Colors.xaml" Line="1" Column="1" />
+      <File FileName="Resources/Styles/Styles.xaml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TimesNewsApp" expanded="True">
             <Node name="TimesNewsApp" expanded="True">
-              <Node name="Models" expanded="True">
-                <Node name="Movie.cs" selected="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="Styles" expanded="True" />
               </Node>
-              <Node name="Services" expanded="True" />
               <Node name="ViewModels" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -38,15 +45,13 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.TimesNewsApp PreferredExecutionTarget="Android.pixel_4_xl_-_api_30" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/admin/Projects/TimesNewsApp/TimesNewsApp/Services/NewsApiManager.cs" relfile="Services/NewsApiManager.cs" line="40" column="1" />
       <Breakpoint file="/Users/admin/Projects/TimesNewsApp/TimesNewsApp/ViewModels/MoviesViewModel.cs" relfile="ViewModels/MoviesViewModel.cs" line="42" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_4_xl_-_api_30" />
   <MonoDevelop.MonoDroid LastDeploySdkVersion="13.0.0.0.0" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TimesNewsApp PreferredExecutionTarget="Android.pixel_4_xl_-_api_30" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

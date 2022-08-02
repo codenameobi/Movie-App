@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "rdBLPRZQMi6fgAR4bqI0IS/4/eJgNvelnhv4mDwi+6yvAgpVNrepZFHn6DgxnyycRTRr+fD7v2C5I31Y0UwBag==",
+  "dgSpecHash": "B0WTEaPNaDbkxh+KS5O1euQY+6aaPTPGEowjogSKP7sSYvTIQbzvzDROgHH7Tqn2HQiSunD1eTs0AmyoelYpUQ==",
   "success": true,
   "projectFilePath": "/Users/admin/Projects/TimesNewsApp/TimesNewsApp/TimesNewsApp.csproj",
   "expectedPackageFiles": [
     "/Users/admin/.nuget/packages/communitytoolkit.mvvm/7.1.2/communitytoolkit.mvvm.7.1.2.nupkg.sha512",
     "/Users/admin/.nuget/packages/googlegson/2.9.0.1/googlegson.2.9.0.1.nupkg.sha512",
+    "/Users/admin/.nuget/packages/identitymodel/5.2.0/identitymodel.5.2.0.nupkg.sha512",
+    "/Users/admin/.nuget/packages/identitymodel.oidcclient/5.0.0/identitymodel.oidcclient.5.0.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.extensions.configuration/6.0.1/microsoft.extensions.configuration.6.0.1.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.0/microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",

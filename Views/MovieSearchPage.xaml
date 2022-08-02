@@ -19,7 +19,6 @@
                     IsEnabled="{Binding IsNotBusy}"
                     Grid.Row="0"
                     Grid.Column="2"
-                    Style="{StaticResource ButtonOutline}"
                     Margin="8"/>
 
         <CollectionView ItemsSource="{Binding Movie}"
@@ -30,16 +29,16 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate x:DataType="model:Result">
                         <Grid Padding="10">
-                            <Frame HeightRequest="125" Style="{StaticResource CardView}">
+                            <Frame HeightRequest="125">
                                 <Grid Padding="0" ColumnDefinitions="125,*">
-                                    <Image Source="{Binding poster_path}"
+                                    <Image Source="{Binding poster_path, StringFormat= 'https://image.tmdb.org/t/p/original/{0}'}"
                                            WidthRequest="125"
                                            HeightRequest="125"/>
                                     <StackLayout
                                         Grid.Column="1"
                                         Padding="10"
                                         VerticalOptions="Center">
-                                    <Label Style="{StaticResource LargeLabel}" Text="{Binding title}"/>
+                                    <Label Style="{StaticResource baseLabelStyle}" Text="{Binding title}"/>
                                     </StackLayout>
                                 </Grid>
                             </Frame>
@@ -49,7 +48,7 @@
         </CollectionView>
 
 
-        <Entry Placeholder="Enter Movie Title"
+        <SearchBar Placeholder="Enter Movie Title"
                Text="{Binding SearchText}"
                Grid.Row="0"
                Grid.Column="0"

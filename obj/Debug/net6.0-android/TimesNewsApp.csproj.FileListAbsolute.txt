@@ -947,6 +947,11 @@
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/stamp/_GenerateJavaStubs.stamp
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/stamp/_GeneratePackageManagerJava.stamp
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/stamp/_ResolveLibraryProjectImports.stamp
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/resizetizer/r/drawable-hdpi/splash2.png
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/resizetizer/r/drawable-mdpi/splash2.png
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/resizetizer/r/drawable-xhdpi/splash2.png
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/resizetizer/r/drawable-xxhdpi/splash2.png
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/resizetizer/r/drawable-xxxhdpi/splash2.png
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/android/assets/mscorlib.dll
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/android/assets/System.Collections.Concurrent.dll
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/android/assets/System.Data.dll
@@ -955,3 +960,11 @@
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/android/assets/System.Private.CoreLib.dll
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/android/assets/System.Private.Uri.dll
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/android/assets/System.Xml.dll
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/resizetizer/r/drawable-hdpi/splash3.png
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/resizetizer/r/drawable-mdpi/splash3.png
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/resizetizer/r/drawable-xhdpi/splash3.png
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/resizetizer/r/drawable-xxhdpi/splash3.png
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/resizetizer/r/drawable-xxxhdpi/splash3.png
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/android/assets/IdentityModel.dll
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/android/assets/IdentityModel.OidcClient.dll
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/android/assets/IdentityModel.pdb

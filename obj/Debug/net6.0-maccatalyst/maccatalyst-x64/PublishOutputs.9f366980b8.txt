@@ -1,5 +1,7 @@
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-maccatalyst/maccatalyst-x64/publish/../TimesNewsApp.app/Contents/MonoBundle/icudt.dat
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-maccatalyst/maccatalyst-x64/publish/../TimesNewsApp.app/Contents/MonoBundle/CommunityToolkit.Mvvm.dll
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-maccatalyst/maccatalyst-x64/publish/../TimesNewsApp.app/Contents/MonoBundle/IdentityModel.dll
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-maccatalyst/maccatalyst-x64/publish/../TimesNewsApp.app/Contents/MonoBundle/IdentityModel.OidcClient.dll
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-maccatalyst/maccatalyst-x64/publish/../TimesNewsApp.app/Contents/MonoBundle/Microsoft.Extensions.Configuration.dll
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-maccatalyst/maccatalyst-x64/publish/../TimesNewsApp.app/Contents/MonoBundle/Microsoft.Extensions.Configuration.Abstractions.dll
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-maccatalyst/maccatalyst-x64/publish/../TimesNewsApp.app/Contents/MonoBundle/Microsoft.Extensions.DependencyInjection.dll
