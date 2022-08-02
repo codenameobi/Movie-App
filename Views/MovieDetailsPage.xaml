@@ -2,9 +2,11 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TimesNewsApp.Views.MovieDetailsPage"
+             xmlns:viewmodel="clr-namespace:TimesNewsApp.ViewModels"
+             x:DataType="viewmodel:MovieDetailsPageViewModel"
              Title="MovieDetailsPage">
     <StackLayout>
-        <Label Text="Welcome to .NET MAUI!"
+        <Label Text="{Binding SelectedMovieItem.title }"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />
     </StackLayout>

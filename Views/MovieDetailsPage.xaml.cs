@@ -1,9 +1,12 @@
-﻿namespace TimesNewsApp.Views;
+﻿using TimesNewsApp.ViewModels;
+
+namespace TimesNewsApp.Views;
 
 public partial class MovieDetailsPage : ContentPage
 {
-	public MovieDetailsPage()
+	public MovieDetailsPage(MovieDetailsPageViewModel vm)
 	{
 		InitializeComponent();
+		BindingContext = vm;
 	}
 }

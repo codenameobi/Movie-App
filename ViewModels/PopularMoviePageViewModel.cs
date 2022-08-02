@@ -43,7 +43,7 @@ namespace TimesNewsApp.ViewModels
                 return;
             Console.WriteLine(SelectedMovieItem);
 
-            var route = $"{nameof(MovieDetailsPage)}?Movie={SelectedMovieItem}";
+            var route = $"{nameof(MovieDetailsPage)}?MovieId={SelectedMovieItem.id}";
             await Shell.Current.GoToAsync(route);
         }
 

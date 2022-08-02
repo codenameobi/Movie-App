@@ -44,7 +44,20 @@ namespace TimesNewsApp.Services
 
         }
 
-        
+        public async Task<Movie> SelectedMovie(string id)
+        {
+            var response = await httpClient.GetAsync(BaseUrl + "movie/"+ id +"?api_key=" + ApiKey + "&language=en-US&page=1&include_adult=false");
+
+            if (response.IsSuccessStatusCode)
+            {
+                movie = await response.Content.ReadFromJsonAsync<Movie>();
+            }
+
+            return movie;
+
+        }
+
+
     }
 }
 
