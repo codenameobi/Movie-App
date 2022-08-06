@@ -7,19 +7,10 @@
              x:DataType="viewmodel:MoviesViewModel"
              Title="{Binding Title}">
     <Grid
-        RowDefinitions="0.5*,*"
+        RowDefinitions="100,*"
         ColumnDefinitions="*,*,*"
         ColumnSpacing="2"
         RowSpacing="0">
-
-        
-
-        <Button Text="Get Movie"
-                    Command="{Binding GetMovieComand}"
-                    IsEnabled="{Binding IsNotBusy}"
-                    Grid.Row="0"
-                    Grid.Column="2"
-                    Margin="8"/>
 
         <CollectionView ItemsSource="{Binding Movie}"
                         SelectionMode="None"
@@ -50,9 +41,10 @@
 
         <SearchBar Placeholder="Enter Movie Title"
                Text="{Binding SearchText}"
+               SearchCommand="{Binding GetMovieComand}"
                Grid.Row="0"
                Grid.Column="0"
-               Grid.ColumnSpan="2"/>
+               Grid.ColumnSpan="3"/>
 
         <ActivityIndicator IsVisible="{Binding IsBusy}"
                                IsRunning="{Binding IsBusy}"

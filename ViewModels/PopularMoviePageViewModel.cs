@@ -9,17 +9,13 @@ using TimesNewsApp.Views;
 
 namespace TimesNewsApp.ViewModels
 {
-	public class PopularMoviePageViewModel : BaseViewModel
+	public partial class PopularMoviePageViewModel : BaseViewModel
 	{
         public ObservableCollection<Result> Movie { get; } = new();
 
-        private Result _selectedMovieItem;
-
-        public Result SelectedMovieItem
-        {
-            get => _selectedMovieItem;
-            set => SetProperty(ref _selectedMovieItem, value);
-        }
+        [ObservableProperty]
+        Result _selectedMovieItem;
+        
 
         NewsApiManager apiService;
 
@@ -43,8 +39,14 @@ namespace TimesNewsApp.ViewModels
                 return;
             Console.WriteLine(SelectedMovieItem);
 
-            var route = $"{nameof(MovieDetailsPage)}?MovieId={SelectedMovieItem.id}";
-            await Shell.Current.GoToAsync(route);
+            var route = $"{nameof(MovieDetailsPage)}";
+            await Shell.Current.GoToAsync(route,true,
+                new Dictionary<string, object>()
+                {
+                    { "SelectedMovie", SelectedMovieItem }
+                }
+                
+                );
         }
 
         async Task GetMovieAsync()

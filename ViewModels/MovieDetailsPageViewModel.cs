@@ -1,15 +1,18 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
+using CommunityToolkit.Mvvm.ComponentModel;
 using TimesNewsApp.Models;
 using TimesNewsApp.Services;
 
 namespace TimesNewsApp.ViewModels
 {
-    [QueryProperty(nameof(MovieId), nameof(MovieId))]
-    public class MovieDetailsPageViewModel : BaseViewModel
+    [QueryProperty(nameof(SelectedMovie), nameof(SelectedMovie))]
+    public partial class MovieDetailsPageViewModel : BaseViewModel
     {
-        public string MovieId { get; set; }
+
+        [ObservableProperty]
+        Result _selectedMovie;
 
         public Movie Movie;
 
@@ -21,16 +24,19 @@ namespace TimesNewsApp.ViewModels
 
         }
 
-        async Task GetMovieAsync(String MovieId)
+
+
+        async Task GetMovie(Result SelectedMovieItem)
         {
-            //if (IsBusy)
-            //    return;
+            if (IsBusy)
+                return;
 
             try
             {
                 IsBusy = true;
 
-                Movie movies = await apiService.SelectedMovie(MovieId);
+                string movieId = SelectedMovieItem.id.ToString();
+                Movie movies = await apiService.SelectedMovie(movieId);
 
             }
             catch (Exception ex)
