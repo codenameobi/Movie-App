@@ -26,6 +26,8 @@ public static class MauiProgram
         builder.Services.AddTransient<MoviesViewModel>();
         builder.Services.AddTransient<MovieDetailsPage>();
         builder.Services.AddTransient<MovieDetailsPageViewModel>();
+		builder.Services.AddTransient<OverviewPage>();
+		builder.Services.AddTransient<OverviewPageViewModel>();
 
         return builder.Build();
 	}

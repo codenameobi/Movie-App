@@ -75,5 +75,8 @@
 	  <MauiXaml Update="Views\MovieDetailsPage.xaml">
 	    <SubType></SubType>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\OverviewPage.xaml">
+	    <SubType></SubType>
+	  </MauiXaml>
 	</ItemGroup>
 </Project>

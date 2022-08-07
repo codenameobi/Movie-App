@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{CABFCFA9-357E-4DBC-B602-A3B5E57EDD38}|Default">
-  <MonoDevelop.Ide.ItemProperties.TimesNewsApp PreferredExecutionTarget="MyAppleMacCatalystID" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TimesNewsApp PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D403C2E8-A395-4700-8475-2209747B07DD" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.0.0.0.0" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/admin/Projects/TimesNewsApp/TimesNewsApp/ViewModels/MoviesViewModel.cs" relfile="ViewModels/MoviesViewModel.cs" line="42" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.0.0.0.0" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ViewModels/MovieDetailsPageViewModel.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D403C2E8-A395-4700-8475-2209747B07DD" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/MovieSearchPage.xaml">
     <Files>
       <File FileName="App.xaml.cs" Line="13" Column="1" IsPinned="True" />
       <File FileName="MauiProgram.cs" Line="31" Column="3" />
@@ -19,19 +20,19 @@
       <File FileName="MainPage.xaml.cs" Line="15" Column="1" />
       <File FileName="Models/Movie.cs" Line="22" Column="5" />
       <File FileName="Platforms/iOS/Program.cs" Line="13" Column="1" />
-      <File FileName="ViewModels/SearchMoviePageViewModel.cs" Line="64" Column="10" />
-      <File FileName="ViewModels/PopularMoviePageViewModel.cs" Line="18" Column="9" />
+      <File FileName="ViewModels/SearchMoviePageViewModel.cs" Line="37" Column="66" />
+      <File FileName="ViewModels/PopularMoviePageViewModel.cs" Line="33" Column="13" />
       <File FileName="AppShell.xaml.cs" Line="16" Column="1" />
-      <File FileName="ViewModels/MovieDetailsPageViewModel.cs" Line="10" Column="54" />
+      <File FileName="ViewModels/MovieDetailsPageViewModel.cs" Line="10" Column="63" />
       <File FileName="../../../../../usr/local/share/dotnet/packs/Microsoft.Maui.Resizetizer.Sdk/6.0.312/targets/Microsoft.Maui.Resizetizer.targets" Line="516" Column="9" />
       <File FileName="../../../../../usr/local/share/dotnet/packs/Microsoft.Android.Sdk.Darwin/32.0.301/tools/Xamarin.Android.Aapt2.targets" Line="212" Column="3" />
       <File FileName="Platforms/Android/AndroidManifest.xml" Line="1" Column="1" />
       <File FileName="AppShell.xaml" Line="1" Column="1" />
       <File FileName="App.xaml" Line="1" Column="1" />
-      <File FileName="MainPage.xaml" Line="23" Column="35" />
-      <File FileName="Views/MovieSearchPage.xaml" Line="1" Column="1" />
+      <File FileName="MainPage.xaml" Line="18" Column="29" />
+      <File FileName="Views/MovieSearchPage.xaml" Line="12" Column="26" />
       <File FileName="MovieReviewPage.xaml" Line="1" Column="1" />
-      <File FileName="Views/MovieDetailsPage.xaml" Line="10" Column="59" />
+      <File FileName="Views/MovieDetailsPage.xaml" Line="16" Column="45" />
       <File FileName="Resources/Styles/Colors.xaml" Line="1" Column="1" />
       <File FileName="Resources/Styles/Styles.xaml" Line="1" Column="1" />
     </Files>
@@ -40,12 +41,9 @@
         <State name="__root__">
           <Node name="TimesNewsApp" expanded="True">
             <Node name="TimesNewsApp" expanded="True">
-              <Node name="ViewModels" expanded="True">
-                <Node name="MovieDetailsPageViewModel.cs" selected="True" />
-              </Node>
-              <Node name="Views" expanded="True">
-                <Node name="MovieDetailsPage.xaml" expanded="True" />
-              </Node>
+              <Node name="Services" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -55,5 +53,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
 </Properties>

@@ -4,6 +4,7 @@ using System.Diagnostics;
 using CommunityToolkit.Mvvm.ComponentModel;
 using TimesNewsApp.Models;
 using TimesNewsApp.Services;
+using TimesNewsApp.Views;
 
 namespace TimesNewsApp.ViewModels
 {
@@ -12,7 +13,11 @@ namespace TimesNewsApp.ViewModels
         public ObservableCollection<Result> Movie { get; } = new();
         NewsApiManager apiService;
 
+        [ObservableProperty]
+        Result _selectedMovieItem;
+
         public Command GetMovieComand { get; }
+        public Command SelectionChangedCommand { get; }
 
         private string searchText;
 
@@ -29,8 +34,24 @@ namespace TimesNewsApp.ViewModels
              Title = "Search Movie";
             this.apiService = apiService;
             GetMovieComand = new Command(async () => await GetMovieAsync(SearchText));
+            SelectionChangedCommand = new Command(SelectedMovie);
         }
 
+        async void SelectedMovie()
+        {
+            if (SelectedMovieItem == null)
+                return;
+            Console.WriteLine(SelectedMovieItem);
+
+            var route = $"{nameof(MovieDetailsPage)}";
+            await Shell.Current.GoToAsync(route, true,
+                new Dictionary<string, object>()
+                {
+                    { "SelectedMovie", SelectedMovieItem }
+                }
+
+                );
+        }
 
 
         async Task GetMovieAsync(String SearchText)

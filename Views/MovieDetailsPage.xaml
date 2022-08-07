@@ -2,17 +2,34 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TimesNewsApp.Views.MovieDetailsPage"
-             xmlns:model="clr-namespace:TimesNewsApp.Models"
              xmlns:viewmodel="clr-namespace:TimesNewsApp.ViewModels"
              x:DataType="viewmodel:MovieDetailsPageViewModel"
-             Title="MovieDetailsPage">
-    <StackLayout>
+             Title="{Binding SelectedMovie.title}">
+    <StackLayout
+        Margin="20">
+        <Frame CornerRadius="10"
+               HeightRequest="350">
+        <Image Source="{Binding SelectedMovie.poster_path, StringFormat= 'https://image.tmdb.org/t/p/original/{0}'}"
+               Grid.Row="0"
+               HeightRequest="344"/>
+        </Frame>
         <Label Text="{Binding SelectedMovie.title}"
                FontSize="Header"
                 VerticalOptions="Center" 
-                HorizontalOptions="Center" />
-        <Label Text="{Binding SelectedMovie.release_date}"/>
-        <Label Text="{Binding SelectedMovie.overview}" />
+                HorizontalOptions="Center"/>
+        <HorizontalStackLayout>
+            <Label Text="Ratings:  "/>
+            <Label Text="{Binding SelectedMovie.vote_average}" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Release Date:  "/>
+            <Label Text="{Binding SelectedMovie.release_date}"/>
+        </HorizontalStackLayout>
+        <VerticalStackLayout
+            Margin="0,20,0,20">
+            <Label Text="Overview"/>
+            <Label Text="{Binding SelectedMovie.overview}" />
+        </VerticalStackLayout>
     </StackLayout>
 </ContentPage>
 

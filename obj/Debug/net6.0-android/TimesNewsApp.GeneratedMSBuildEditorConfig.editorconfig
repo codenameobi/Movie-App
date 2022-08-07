@@ -56,3 +56,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TimesNewsApp.Views.MovieSearchPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views/MovieSearchPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views/MovieSearchPage.xaml
+
+[/Users/admin/Projects/TimesNewsApp/TimesNewsApp/Views/OverviewPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TimesNewsApp.Views.OverviewPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/OverviewPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/OverviewPage.xaml

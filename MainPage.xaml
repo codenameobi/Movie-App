@@ -11,7 +11,8 @@
             ColumnDefinitions="*,*"
             ColumnSpacing="2"
             RowDefinitions="*,Auto"
-            RowSpacing="0">
+            RowSpacing="0"
+            Margin="0,32,0,0">
 
             <CollectionView ItemsSource="{Binding Movie}"
                             Grid.ColumnSpan="2"

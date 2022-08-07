@@ -7,13 +7,16 @@
              x:DataType="viewmodel:MoviesViewModel"
              Title="{Binding Title}">
     <Grid
-        RowDefinitions="100,*"
-        ColumnDefinitions="*,*,*"
+        RowDefinitions="auto,*"
+        ColumnDefinitions="*,*"
         ColumnSpacing="2"
-        RowSpacing="0">
+        RowSpacing="0"
+        Margin="0,32,0,0">
 
         <CollectionView ItemsSource="{Binding Movie}"
-                        SelectionMode="None"
+                        SelectionMode="Single"
+                        SelectedItem="{Binding SelectedMovieItem}"
+                        SelectionChangedCommand="{Binding SelectionChangedCommand}"
                         Grid.ColumnSpan="3"
                         Grid.Row="1">
 
