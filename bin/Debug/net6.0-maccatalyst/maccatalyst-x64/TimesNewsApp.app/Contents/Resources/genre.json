@@ -1,27 +1,97 @@
 [
-   {
-        "Id" : "1",
-        "Image":"",
-        "Name":"Horror"
-    },
-    {
-        "Id" : "2",
-        "Image":"",
-        "Name":"Comedy"
-    },
-    {
-        "Id" : "3",
-        "Image":"",
-        "Name":"Action"
-    },
-    {
-        "Id" : "2",
-        "Image":"",
-        "Name":"Adventure"
-    },
-    {
-        "Id" : "3",
-        "Image":"",
-        "Name":"Fantasy"
-    }
+  {
+    "id": 28,
+    "image": "",
+    "name": "Action"
+  },
+  {
+    "id": 12,
+    "image": "",
+    "name": "Adventure"
+  },
+  {
+    "id": 16,
+    "image": "",
+    "name": "Animation"
+  },
+  {
+    "id": 35,
+    "image": "",
+    "name": "Comedy"
+  },
+  {
+    "id": 80,
+    "image": "",
+    "name": "Crime"
+  },
+  {
+    "id": 99,
+    "image": "",
+    "name": "Documentary"
+  },
+  {
+    "id": 18,
+    "image": "",
+    "name": "Drama"
+  },
+  {
+    "id": 10751,
+    "image": "",
+    "name": "Family"
+  },
+  {
+    "id": 14,
+    "image": "",
+    "name": "Fantasy"
+  },
+  {
+    "id": 36,
+    "image": "",
+    "name": "History"
+  },
+  {
+    "id": 27,
+    "image": "",
+    "name": "Horror"
+  },
+  {
+    "id": 10402,
+    "image": "",
+    "name": "Music"
+  },
+  {
+    "id": 9648,
+    "image": "",
+    "name": "Mystery"
+  },
+  {
+    "id": 10749,
+    "image": "",
+    "name": "Romance"
+  },
+  {
+    "id": 878,
+    "image": "",
+    "name": "Science Fiction"
+  },
+  {
+    "id": 10770,
+    "image": "",
+    "name": "TV Movie"
+  },
+  {
+    "id": 53,
+    "image": "",
+    "name": "Thriller"
+  },
+  {
+    "id": 10752,
+    "image": "",
+    "name": "War"
+  },
+  {
+    "id": 37,
+    "image": "",
+    "name": "Western"
+  }
 ]

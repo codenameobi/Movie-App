@@ -10,7 +10,7 @@
     <TabBar>
         <Tab  Icon="icon1.png">
             <ShellContent Title="Popular" ContentTemplate="{DataTemplate local:MainPage}"/>
-            <ShellContent Title="Reviews" ContentTemplate="{DataTemplate view:OverviewPage}"/>
+            <ShellContent Title="Genre" ContentTemplate="{DataTemplate view:OverviewPage}"/>
             <ShellContent Title="Search Movies" Icon="icon2.png" ContentTemplate="{DataTemplate view:MovieSearchPage}"/>
         </Tab>
     </TabBar>

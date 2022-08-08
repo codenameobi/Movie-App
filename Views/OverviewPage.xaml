@@ -6,42 +6,30 @@
              xmlns:viewmodel="clr-namespace:TimesNewsApp.ViewModels"
              x:DataType="viewmodel:OverviewPageViewModel"
              Title="{Binding Title}">
-    <Grid RowDefinitions="*,*">
-          <Grid Grid.Row="0"
-                RowDefinitions="*,*">
-            
+          <Grid>
             <CollectionView ItemsSource="{Binding Genre}"
-                            ItemsLayout="HorizontalList"
-                            Grid.Row="1">
+                            SelectionMode="Single"
+                            SelectedItem="{Binding SelectedGenreItem}"
+                            SelectionChangedCommand="{Binding GetGenre}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate x:DataType="model:Genre">
                         <Grid Padding="10">
+                            <BoxView HeightRequest="20"
+                                     Color="Black"/>
                             <Frame HeightRequest="125">
-                                <Grid Padding="0" ColumnDefinitions="125,*">
-                                    <BoxView
-                                           WidthRequest="125"
-                                           HeightRequest="125"/>
-                                    <StackLayout
-                                        Grid.Column="1"
-                                        Padding="10"
-                                        VerticalOptions="Center">
-                                    <Label Style="{StaticResource baseLabelStyle}" Text="{Binding Name}"/>
-                                    </StackLayout>
-                                </Grid>
+                                    <Label Text="{Binding Name}"/>
                             </Frame>
                         </Grid>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
-              <Label Text="Movie Genre" FontSize="Header"/>
-        </Grid>
-        <Grid Grid.Row="1"/>
-        <ActivityIndicator IsVisible="{Binding IsBusy}"
+            <ActivityIndicator IsVisible="{Binding IsBusy}"
                                IsRunning="{Binding IsBusy}"
                                HorizontalOptions="FillAndExpand"
                                VerticalOptions="CenterAndExpand"
                                Grid.RowSpan="2"
                                Grid.ColumnSpan="2"/>
-    </Grid>
+        </Grid>
+        
 </ContentPage>
 

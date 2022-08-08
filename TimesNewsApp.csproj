@@ -35,7 +35,7 @@
 		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
 
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\splash.png" Color="#512B04" TintColor="#66B3FF" Resize="True"/>
+		<MauiSplashScreen Include="Resources\Splash\splash.png" Color="#512B04" TintColor="#66B3FF" Resize="True" />
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
@@ -76,6 +76,9 @@
 	    <SubType></SubType>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\OverviewPage.xaml">
+	    <SubType></SubType>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\MovieGenreListPage.xaml">
 	    <SubType></SubType>
 	  </MauiXaml>
 	</ItemGroup>

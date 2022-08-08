@@ -239,7 +239,9 @@
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-ios/iossimulator-x64/resizetizer/r/dotnet_bot@3x.png
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-ios/iossimulator-x64/resizetizer/r/Resources/icon1.png
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-ios/iossimulator-x64/resizetizer/r/Resources/icon2.png
-/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-ios/iossimulator-x64/resizetizer/r/Resources/splash.png
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-ios/iossimulator-x64/resizetizer/r/splash.png
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-ios/iossimulator-x64/resizetizer/r/splash@2x.png
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-ios/iossimulator-x64/resizetizer/r/splash@3x.png
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-ios/iossimulator-x64/mauiimage.stamp
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-ios/iossimulator-x64/resizetizer/f/MauiInfo.plist
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-ios/iossimulator-x64/mauifont.stamp

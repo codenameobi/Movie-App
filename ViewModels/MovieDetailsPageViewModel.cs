@@ -23,32 +23,6 @@ namespace TimesNewsApp.ViewModels
             this.apiService = apiService;
 
         }
-
-
-
-        async Task GetMovie(Result SelectedMovieItem)
-        {
-            if (IsBusy)
-                return;
-
-            try
-            {
-                IsBusy = true;
-
-                string movieId = SelectedMovieItem.id.ToString();
-                Movie movies = await apiService.SelectedMovie(movieId);
-            }
-            catch (Exception ex)
-            {
-                Debug.WriteLine($"Unable to get movie: {ex.Message}");
-                await Application.Current.MainPage.DisplayAlert("Error!", ex.Message, "OK");
-            }
-            finally
-            {
-                IsBusy = false;
-            }
-        }
-
     }
 }
 

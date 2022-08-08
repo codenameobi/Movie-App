@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
+using CommunityToolkit.Mvvm.ComponentModel;
 using TimesNewsApp.Models;
 using TimesNewsApp.Services;
+using TimesNewsApp.Views;
 
 namespace TimesNewsApp.ViewModels
 {
@@ -10,15 +12,34 @@ namespace TimesNewsApp.ViewModels
     { 
         public ObservableCollection<Genre> Genre { get; } = new();
 
+        [ObservableProperty]
+        Genre _selectedGenreItem;
+
         FileService fileService;
 
-        public Command GetGenre { get; set; }
+        public Command GetGenre { get;}
 
         public OverviewPageViewModel(FileService fileService)
         {
             this.fileService = fileService;
             Title = "Homepage";
+            GetGenre = new Command(SelectGenre);
             GetGenreList();
+        }
+
+        async void SelectGenre()
+        {
+            if (SelectedGenreItem == null)
+                return;
+            Console.WriteLine(SelectedGenreItem.Name);
+
+            var route = $"{nameof(MovieGenreListPage)}";
+            await Shell.Current.GoToAsync(route, true,
+                new Dictionary<string, object>()
+                {
+                    { "SelectedGenre", SelectedGenreItem }
+                }
+                );
         }
 
         async Task GetGenreList()
