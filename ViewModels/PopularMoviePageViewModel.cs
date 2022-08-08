@@ -29,7 +29,7 @@ namespace TimesNewsApp.ViewModels
              
             Title = "Popluar Movies";
             this.apiService = apiService;
-            GetMoviesComand = new Command(async () => await GetMovieAsync());
+            GetMovieAsync();
             SelectionChangedCommand = new Command(SelectedMovie);
         }
 

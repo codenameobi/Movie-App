@@ -18,6 +18,7 @@ public static class MauiProgram
 			});
 
         builder.Services.AddSingleton<NewsApiManager>();
+		builder.Services.AddSingleton<FileService>();
 
         builder.Services.AddTransient<MainPage>();
         builder.Services.AddTransient<PopularMoviePageViewModel>();

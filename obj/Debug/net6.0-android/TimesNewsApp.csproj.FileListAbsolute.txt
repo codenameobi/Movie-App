@@ -1,3 +1,11 @@
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-android/TimesNewsApp.runtimeconfig.json
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-android/TimesNewsApp.dll
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-android/TimesNewsApp.pdb
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-android/com.companyname.timesnewsapp.apk
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-android/com.companyname.timesnewsapp.aab
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-android/com.companyname.timesnewsapp-Signed.aab
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-android/com.companyname.timesnewsapp-Signed.apk
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-android/com.companyname.timesnewsapp-Signed.apk.idsig
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/build.props
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/adb.props
@@ -18,7 +26,7 @@
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/resizetizer/r/drawable-xxxhdpi/dotnet_bot.png
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/resizetizer/r/drawable/icon1.png
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/resizetizer/r/drawable/icon2.png
-/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/resizetizer/r/drawable/splash4.png
+/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/resizetizer/r/drawable/splash.png
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/resizetizer/r/mipmap-anydpi-v26/appicon.xml
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/resizetizer/r/mipmap-anydpi-v26/appicon_round.xml
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/resizetizer/r/mipmap-hdpi/appicon.png
@@ -92,14 +100,6 @@
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/TimesNewsApp.AssemblyInfoInputs.cache
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/TimesNewsApp.AssemblyInfo.cs
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/TimesNewsApp.csproj.CoreCompileInputs.cache
-/Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-android/TimesNewsApp.runtimeconfig.json
-/Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-android/TimesNewsApp.dll
-/Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-android/TimesNewsApp.pdb
-/Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-android/com.companyname.timesnewsapp.apk
-/Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-android/com.companyname.timesnewsapp.aab
-/Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-android/com.companyname.timesnewsapp-Signed.aab
-/Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-android/com.companyname.timesnewsapp-Signed.apk
-/Users/admin/Projects/TimesNewsApp/TimesNewsApp/bin/Debug/net6.0-android/com.companyname.timesnewsapp-Signed.apk.idsig
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/XamlC.stamp
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/TimesNewsApp.dll
 /Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/TimesNewsApp.pdb

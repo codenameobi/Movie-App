@@ -1,49 +1,47 @@
 ﻿<Properties StartupConfiguration="{CABFCFA9-357E-4DBC-B602-A3B5E57EDD38}|Default">
-  <MonoDevelop.Ide.ItemProperties.TimesNewsApp PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D403C2E8-A395-4700-8475-2209747B07DD" />
-  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.0.0.0.0" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/admin/Projects/TimesNewsApp/TimesNewsApp/ViewModels/MoviesViewModel.cs" relfile="ViewModels/MoviesViewModel.cs" line="42" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D403C2E8-A395-4700-8475-2209747B07DD" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/MovieSearchPage.xaml">
+  <MonoDevelop.Ide.ItemProperties.TimesNewsApp PreferredExecutionTarget="Android.pixel_4_xl_-_api_30" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AppShell.xaml">
     <Files>
       <File FileName="App.xaml.cs" Line="13" Column="1" IsPinned="True" />
-      <File FileName="MauiProgram.cs" Line="31" Column="3" />
+      <File FileName="MauiProgram.cs" Line="34" Column="3" />
       <File FileName="Services/NewsApiManager.cs" Line="45" Column="10" />
       <File FileName="ViewModels/BaseViewModel.cs" Line="12" Column="9" />
       <File FileName="Views/MovieSearchPage.xaml.cs" Line="10" Column="23" />
       <File FileName="MainPage.xaml.cs" Line="15" Column="1" />
       <File FileName="Models/Movie.cs" Line="22" Column="5" />
       <File FileName="Platforms/iOS/Program.cs" Line="13" Column="1" />
-      <File FileName="ViewModels/SearchMoviePageViewModel.cs" Line="37" Column="66" />
-      <File FileName="ViewModels/PopularMoviePageViewModel.cs" Line="33" Column="13" />
+      <File FileName="ViewModels/SearchMoviePageViewModel.cs" Line="47" Column="55" />
+      <File FileName="ViewModels/PopularMoviePageViewModel.cs" Line="32" Column="13" />
       <File FileName="AppShell.xaml.cs" Line="16" Column="1" />
-      <File FileName="ViewModels/MovieDetailsPageViewModel.cs" Line="10" Column="63" />
-      <File FileName="../../../../../usr/local/share/dotnet/packs/Microsoft.Maui.Resizetizer.Sdk/6.0.312/targets/Microsoft.Maui.Resizetizer.targets" Line="516" Column="9" />
-      <File FileName="../../../../../usr/local/share/dotnet/packs/Microsoft.Android.Sdk.Darwin/32.0.301/tools/Xamarin.Android.Aapt2.targets" Line="212" Column="3" />
-      <File FileName="Platforms/Android/AndroidManifest.xml" Line="1" Column="1" />
-      <File FileName="AppShell.xaml" Line="1" Column="1" />
-      <File FileName="App.xaml" Line="1" Column="1" />
-      <File FileName="MainPage.xaml" Line="18" Column="29" />
-      <File FileName="Views/MovieSearchPage.xaml" Line="12" Column="26" />
-      <File FileName="MovieReviewPage.xaml" Line="1" Column="1" />
-      <File FileName="Views/MovieDetailsPage.xaml" Line="16" Column="45" />
+      <File FileName="ViewModels/MovieDetailsPageViewModel.cs" Line="24" Column="1" />
+      <File FileName="ViewModels/OverviewPageViewModel.cs" Line="37" Column="45" />
+      <File FileName="Models/Genre.cs" Line="20" Column="1" />
+      <File FileName="Services/FileService.cs" Line="25" Column="6" />
+      <File FileName="Views/OverviewPage.xaml.cs" Line="10" Column="23" />
       <File FileName="Resources/Styles/Colors.xaml" Line="1" Column="1" />
+      <File FileName="App.xaml" Line="1" Column="1" />
+      <File FileName="MainPage.xaml" Line="1" Column="1" />
+      <File FileName="Views/MovieSearchPage.xaml" Line="1" Column="1" />
+      <File FileName="MovieReviewPage.xaml" Line="1" Column="1" />
+      <File FileName="Views/MovieDetailsPage.xaml" Line="1" Column="1" />
       <File FileName="Resources/Styles/Styles.xaml" Line="1" Column="1" />
+      <File FileName="Views/OverviewPage.xaml" Line="1" Column="1" />
+      <File FileName="AppShell.xaml" Line="20" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TimesNewsApp" expanded="True">
             <Node name="TimesNewsApp" expanded="True">
-              <Node name="Services" expanded="True" />
-              <Node name="ViewModels" expanded="True" />
-              <Node name="Views" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="Splash" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -53,4 +51,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.0.0.0" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_4_xl_-_api_30" />
+  <MultiItemStartupConfigurations />
 </Properties>

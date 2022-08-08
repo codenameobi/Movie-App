@@ -1,0 +1,27 @@
+[
+   {
+        "Id" : "1",
+        "Image":"",
+        "Name":"Horror"
+    },
+    {
+        "Id" : "2",
+        "Image":"",
+        "Name":"Comedy"
+    },
+    {
+        "Id" : "3",
+        "Image":"",
+        "Name":"Action"
+    },
+    {
+        "Id" : "2",
+        "Image":"",
+        "Name":"Adventure"
+    },
+    {
+        "Id" : "3",
+        "Image":"",
+        "Name":"Fantasy"
+    }
+]

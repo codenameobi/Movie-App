@@ -2564,7 +2564,7 @@ int drawable notification_template_icon_bg 0x7f070097
 int drawable notification_template_icon_low_bg 0x7f070098
 int drawable notification_tile_bg 0x7f070099
 int drawable notify_panel_notification_icon_bg 0x7f07009a
-int drawable splash4 0x7f07009b
+int drawable splash 0x7f07009b
 int drawable test_custom_background 0x7f07009c
 int drawable test_level_drawable 0x7f07009d
 int drawable tooltip_frame_dark 0x7f07009e

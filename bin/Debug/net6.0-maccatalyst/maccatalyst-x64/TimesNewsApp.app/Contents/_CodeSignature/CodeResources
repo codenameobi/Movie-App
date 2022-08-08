@@ -10,7 +10,7 @@
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		mGFzlRlVPrIxIjL64RyJqcW5Fqw=
+		ATwyFiM4QhpykJ1y4CTFs1c0mmY=
 		</data>
 		<key>Resources/MauiInfo.plist</key>
 		<data>
@@ -43,6 +43,10 @@
 		<key>Resources/dotnet_bot@3x.png</key>
 		<data>
 		q9YkYdXEtTarjODSzZazJNqUnN4=
+		</data>
+		<key>Resources/genre.json</key>
+		<data>
+		nXfu35By9vFdmgCcSG0w1QiobZM=
 		</data>
 		<key>Resources/icon1.png</key>
 		<data>
@@ -1333,14 +1337,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			42Vy8/V127FzweImVQ8GSrcymS19j2srVUBIFCgR17k=
+			jsaz/15OeqYhmDdu+kdVPQ0TqHw0M0R1hMMd5cw9fgM=
 			</data>
 		</dict>
 		<key>MonoBundle/TimesNewsApp.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2wObvUKRdR4/IWrkeyOMZ6KiAxJwc/Qtm7kGQMsuHXA=
+			KpRVe6QR3FF4IWrzVvGHNGRiancT7HbOgY020Bd88JY=
 			</data>
 		</dict>
 		<key>MonoBundle/WindowsBase.dll</key>
@@ -1431,7 +1435,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cYJ6F7wNAA6xClrXydiu2sI02hNxC7z1x16JEF48sj8=
+			npiahPyZuSPayqjd0WL0tyVUhIP+hh6pxczJwhgqqIM=
 			</data>
 		</dict>
 		<key>Resources/MauiInfo.plist</key>
@@ -1488,6 +1492,13 @@
 			<key>hash2</key>
 			<data>
 			vjYg7v38aCvp3YfVnOekZFebcitnM5IsjyinFJGMvWI=
+			</data>
+		</dict>
+		<key>Resources/genre.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qXpYg8m8HgS2sDTdcHY2inMryhu3gj+bf9Bq/SjOs+U=
 			</data>
 		</dict>
 		<key>Resources/icon1.png</key>

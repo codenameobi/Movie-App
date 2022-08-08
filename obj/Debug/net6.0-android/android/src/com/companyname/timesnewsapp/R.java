@@ -10995,7 +10995,7 @@ public final class R {
     public static final int notification_template_icon_low_bg=0x7f070098;
     public static final int notification_tile_bg=0x7f070099;
     public static final int notify_panel_notification_icon_bg=0x7f07009a;
-    public static final int splash4=0x7f07009b;
+    public static final int splash=0x7f07009b;
     public static final int test_custom_background=0x7f07009c;
     public static final int test_level_drawable=0x7f07009d;
     public static final int tooltip_frame_dark=0x7f07009e;

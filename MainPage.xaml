@@ -7,13 +7,8 @@
              x:DataType="viewmodel:PopularMoviePageViewModel"
              BackgroundColor="{DynamicResource Light}"
              Title="{Binding Title}">
-    <Grid
-            ColumnDefinitions="*,*"
-            ColumnSpacing="2"
-            RowDefinitions="*,Auto"
-            RowSpacing="0"
-            Margin="0,32,0,0">
 
+    <Grid Margin="0,32,0,0">
             <CollectionView ItemsSource="{Binding Movie}"
                             Grid.ColumnSpan="2"
                             SelectionMode="Single"
@@ -42,20 +37,13 @@
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
-            <Button Text="Get Movies"
-                    Command="{Binding GetMoviesComand}"
-                    IsEnabled="{Binding IsNotBusy}"
-                    Grid.Row="1"
-                    Grid.Column="0"
-                    Margin="8"/>
-
             <ActivityIndicator IsVisible="{Binding IsBusy}"
                                IsRunning="{Binding IsBusy}"
                                HorizontalOptions="FillAndExpand"
                                VerticalOptions="CenterAndExpand"
                                Grid.RowSpan="2"
                                Grid.ColumnSpan="2"/>
-        </Grid>
+    </Grid>
 
  
 </ContentPage>

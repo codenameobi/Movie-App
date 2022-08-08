@@ -7866,7 +7866,7 @@ namespace TimesNewsApp
 			public const int notify_panel_notification_icon_bg = 2131165338;
 			
 			// aapt resource value: 0x7F07009B
-			public const int splash4 = 2131165339;
+			public const int splash = 2131165339;
 			
 			// aapt resource value: 0x7F07009C
 			public const int test_custom_background = 2131165340;

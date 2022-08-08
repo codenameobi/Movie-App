@@ -37,7 +37,6 @@ namespace TimesNewsApp.ViewModels
 
                 string movieId = SelectedMovieItem.id.ToString();
                 Movie movies = await apiService.SelectedMovie(movieId);
-
             }
             catch (Exception ex)
             {
