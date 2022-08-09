@@ -44,8 +44,9 @@ namespace TimesNewsApp.Services
 
         }
 
-        public async Task<Movie> GetMovieByGenre(string id)
+        public async Task<Movie> GetMovieByGenre(int id)
         {
+        
             var response = await httpClient.GetAsync(BaseUrl + "discover/movie?api_key=" + ApiKey + "&with_genres=" + id);
 
             if (response.IsSuccessStatusCode)

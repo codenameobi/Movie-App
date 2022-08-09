@@ -78,7 +78,7 @@
 	  <MauiXaml Update="Views\OverviewPage.xaml">
 	    <SubType></SubType>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\MovieGenreListPage.xaml">
+	  <MauiXaml Update="Views\MovieListGenrePage.xaml">
 	    <SubType></SubType>
 	  </MauiXaml>
 	</ItemGroup>

@@ -12,7 +12,7 @@ namespace TimesNewsApp.ViewModels
     {
 
         [ObservableProperty]
-        Result _selectedMovie;
+        private Result _selectedMovie;
 
         public Movie Movie;
 
@@ -20,8 +20,7 @@ namespace TimesNewsApp.ViewModels
 
         public MovieDetailsPageViewModel(NewsApiManager apiService)
         {
-            this.apiService = apiService;
-
+            this.apiService = apiService;    
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text.Json;
+using Newtonsoft.Json;
 using TimesNewsApp.Models;
 
 namespace TimesNewsApp.Services
@@ -18,7 +19,7 @@ namespace TimesNewsApp.Services
             var stream = await FileSystem.OpenAppPackageFileAsync("genrelist.json");
             var reader = new StreamReader(stream);
             var contents = await reader.ReadToEndAsync();
-            genre = JsonSerializer.Deserialize<List<Genre>>(contents);
+            genre = JsonConvert.DeserializeObject<List<Genre>>(contents);
 
             return genre;
         }

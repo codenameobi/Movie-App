@@ -13,32 +13,33 @@ namespace TimesNewsApp.ViewModels
         public ObservableCollection<Genre> Genre { get; } = new();
 
         [ObservableProperty]
-        Genre _selectedGenreItem;
+        Genre selectedGenre;
 
         FileService fileService;
 
-        public Command GetGenre { get;}
+        public Command SelectionCommand { get; }
 
         public OverviewPageViewModel(FileService fileService)
         {
             this.fileService = fileService;
             Title = "Homepage";
-            GetGenre = new Command(SelectGenre);
             GetGenreList();
+            SelectionCommand = new Command(SelectGenre);
         }
 
         async void SelectGenre()
         {
-            if (SelectedGenreItem == null)
+            if (SelectedGenre == null)
                 return;
-            Console.WriteLine(SelectedGenreItem.Name);
+            Console.WriteLine(SelectedGenre.Name);
 
-            var route = $"{nameof(MovieGenreListPage)}";
-            await Shell.Current.GoToAsync(route, true,
-                new Dictionary<string, object>()
+            var route = $"{nameof(MovieListGenrePage)}";
+            Dictionary<string, object> parameters = new Dictionary<string, object>()
                 {
-                    { "SelectedGenre", SelectedGenreItem }
-                }
+                    { "SelectedGenre", SelectedGenre }
+                };
+            await Shell.Current.GoToAsync(route, true,
+                parameters
                 );
         }
 

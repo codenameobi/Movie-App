@@ -51,11 +51,11 @@ build_metadata.AdditionalFiles.ManifestResourceName = TimesNewsApp.Views.MovieDe
 build_metadata.AdditionalFiles.TargetPath = Views/MovieDetailsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views/MovieDetailsPage.xaml
 
-[/Users/admin/Projects/TimesNewsApp/TimesNewsApp/Views/MovieGenreListPage.xaml]
+[/Users/admin/Projects/TimesNewsApp/TimesNewsApp/Views/MovieListGenrePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = TimesNewsApp.Views.MovieGenreListPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Views/MovieGenreListPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Views/MovieGenreListPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TimesNewsApp.Views.MovieListGenrePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/MovieListGenrePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/MovieListGenrePage.xaml
 
 [/Users/admin/Projects/TimesNewsApp/TimesNewsApp/Views/MovieSearchPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
