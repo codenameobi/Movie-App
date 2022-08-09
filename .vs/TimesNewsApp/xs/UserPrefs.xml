@@ -7,15 +7,13 @@
       <Breakpoint file="/Users/admin/Projects/TimesNewsApp/TimesNewsApp/ViewModels/MovieGenreListPageViewModel.cs" relfile="ViewModels/MovieGenreListPageViewModel.cs" line="36" column="1" />
       <Breakpoint file="/Users/admin/Projects/TimesNewsApp/TimesNewsApp/ViewModels/MovieGenreListPageViewModel.cs" relfile="ViewModels/MovieGenreListPageViewModel.cs" line="45" column="1" />
       <Breakpoint file="/Users/admin/Projects/TimesNewsApp/TimesNewsApp/ViewModels/MovieGenreListPageViewModel.cs" relfile="ViewModels/MovieGenreListPageViewModel.cs" line="10" column="1" />
-      <Breakpoint file="/Users/admin/Projects/TimesNewsApp/TimesNewsApp/ViewModels/MovieListGenrePageViewModel.cs" relfile="ViewModels/MovieListGenrePageViewModel.cs" line="40" column="1" />
-      <Breakpoint file="/Users/admin/Projects/TimesNewsApp/TimesNewsApp/ViewModels/MovieListGenrePageViewModel.cs" relfile="ViewModels/MovieListGenrePageViewModel.cs" line="38" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/MovieListGenrePage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ViewModels/MovieListGenrePageViewModel.cs">
     <Files>
       <File FileName="Views/OverviewPage.xaml.cs" Line="1" Column="1" />
       <File FileName="MauiProgram.cs" Line="33" Column="70" />
-      <File FileName="Services/NewsApiManager.cs" Line="56" Column="1" />
+      <File FileName="Services/NewsApiManager.cs" Line="47" Column="50" />
       <File FileName="ViewModels/BaseViewModel.cs" Line="12" Column="9" />
       <File FileName="Views/MovieSearchPage.xaml.cs" Line="9" Column="3" />
       <File FileName="MainPage.xaml.cs" Line="15" Column="1" />
@@ -31,11 +29,11 @@
       <File FileName="Models/Genre.cs" Line="15" Column="1" />
       <File FileName="Services/FileService.cs" Line="15" Column="1" />
       <File FileName="Views/MovieDetailsPage.xaml.cs" Line="10" Column="3" />
-      <File FileName="Views/MovieListGenrePage.xaml" Line="36" Column="23" />
-      <File FileName="Views/MovieListGenrePage.xaml.cs" Line="7" Column="87" />
+      <File FileName="Views/MovieListGenrePage.xaml" Line="35" Column="1" />
+      <File FileName="Views/MovieListGenrePage.xaml.cs" Line="24" Column="9" />
       <File FileName="Platforms/iOS/Program.cs" Line="13" Column="1" />
       <File FileName="ViewModels/PopularMoviePageViewModel.cs" Line="34" Column="10" />
-      <File FileName="ViewModels/MovieListGenrePageViewModel.cs" Line="33" Column="24" />
+      <File FileName="ViewModels/MovieListGenrePageViewModel.cs" Line="42" Column="24" />
       <File FileName="Resources/Raw/genrelist.json" Line="1" Column="2" />
       <File FileName="../../../../../usr/local/share/dotnet/packs/Microsoft.Android.Sdk.Darwin/32.0.301/tools/Xamarin.Android.Common.targets" Line="1234" Column="2" />
     </Files>
@@ -44,12 +42,13 @@
         <State name="__root__">
           <Node name="TimesNewsApp" expanded="True">
             <Node name="TimesNewsApp" expanded="True">
-              <Node name="Platforms" expanded="True">
-                <Node name="iOS" expanded="True" />
-              </Node>
+              <Node name="Platforms" expanded="True" />
               <Node name="Services" expanded="True" />
-              <Node name="ViewModels" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="MovieListGenrePageViewModel.cs" selected="True" />
+              </Node>
               <Node name="Views" expanded="True">
+                <Node name="MovieDetailsPage.xaml" expanded="True" />
                 <Node name="MovieListGenrePage.xaml" expanded="True" />
               </Node>
               <Node name="AppShell.xaml" expanded="True" />
