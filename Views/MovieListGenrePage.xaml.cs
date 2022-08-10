@@ -17,10 +17,4 @@ public partial class MovieListGenrePage : ContentPage
         base.OnAppearing();
         await viewModel.InitializeAsync();
     }
-
-    protected override void OnDisappearing()
-    {
-        base.OnDisappearing();
-        viewModel.Close();
-    }
 }

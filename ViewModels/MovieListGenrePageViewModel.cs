@@ -4,6 +4,7 @@ using System.Diagnostics;
 using CommunityToolkit.Mvvm.ComponentModel;
 using TimesNewsApp.Models;
 using TimesNewsApp.Services;
+using TimesNewsApp.Views;
 
 namespace TimesNewsApp.ViewModels
 {
@@ -15,38 +16,57 @@ namespace TimesNewsApp.ViewModels
         [ObservableProperty]
         private Genre selectedGenre;
 
+        [ObservableProperty]
+        private Result selectedMovieItem;
+
         int genreId;
 
         NewsApiManager apiService;
 
         public Command GetMovieComand { get; }
+        public Command SelectionChangedCommand { get; }
 
         public MovieListGenrePageViewModel(NewsApiManager apiService)
         {
             this.apiService = apiService;
+            SelectionChangedCommand = new Command(SelectedMovie);
+        }
+
+        async void SelectedMovie()
+        {
+            if (SelectedMovieItem == null)
+                return;
+            Console.WriteLine(SelectedMovieItem);
+
+            var route = $"{nameof(MovieDetailsPage)}";
+            await Shell.Current.GoToAsync(route, true,
+                new Dictionary<string, object>()
+                {
+                    { "SelectedMovie", SelectedMovieItem }
+                }
+
+                );
         }
 
         internal async Task InitializeAsync()
         {
-            
-            await GetMovies();
+            await GetMovies(SelectedGenre);
         }
 
-        internal void Close()
-        {
-            SelectedGenre = new();
-        }
-
-        async Task GetMovies()
+        async Task GetMovies(Genre SelectedGenre)
         {
             if (IsBusy)
                 return;
             try
             {
+
                 IsBusy = true;
-                Movie movies = await apiService.GetMovieByGenre(SelectedGenre.Id);
+
                 if (Movie.Count != 0)
-                    return;
+                    Movie.Clear();
+
+                Movie movies = await apiService.GetMovieByGenre(SelectedGenre.Id);
+                
                 foreach (var item in movies.results)
                     Movie.Add(item);
             }

@@ -13,13 +13,16 @@
                             SelectionChangedCommand="{Binding SelectionCommand}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate x:DataType="model:Genre">
-                        <Grid Padding="10">
-                            <BoxView HeightRequest="20"
-                                     Color="Black"/>
-                            <Frame HeightRequest="125">
-                                    <Label Text="{Binding Name}"/>
-                            </Frame>
+                        <Frame Padding="20" HeightRequest="125">
+                        <Grid 
+                              ColumnDefinitions="*,*">
+                            <Image Grid.Column="0"
+                                Source="{Binding Image}"/>
+                            
+                             <Label Grid.Column="1" Text="{Binding Name}"/>
+                            
                         </Grid>
+                            </Frame>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>

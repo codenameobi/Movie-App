@@ -12,7 +12,7 @@
 
             <Color x:Key="bgColor">#C0C0C0</Color>
             <Color x:Key="fgColor">#0000AD</Color>
-            <x:Double x:Key="fontSize">20</x:Double>
+            <x:Double x:Key="fontSize">16</x:Double>
 
             <Style x:Key="CardView" TargetType="Frame">
                 <Setter Property="WidthRequest" Value="250" />
@@ -20,12 +20,19 @@
                 <Setter Property="CornerRadius" Value="10"/>
             </Style>
 
+            <Style x:Key="TitleLabelStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="20" />
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="VerticalTextAlignment" Value="Center"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            </Style>
+
             <Style x:Key="baseLabelStyle" TargetType="Label">
                 <Setter Property="FontSize" Value="{StaticResource fontSize}" />
             </Style>
             <Style x:Key="infoLabelStyle" BasedOn="{StaticResource baseLabelStyle}" TargetType="Label">
                 <Setter Property="FontAttributes" Value="Bold" />
-                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="FontSize" Value="{StaticResource fontSize}"/>
             </Style>
         </ResourceDictionary>
     </Application.Resources>

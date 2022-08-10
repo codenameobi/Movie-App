@@ -8,37 +8,31 @@
               Title="{Binding SelectedGenre.Name}">
     <StackLayout>
 
-        
+            <ActivityIndicator IsVisible="{Binding IsBusy}"
+                               IsRunning="{Binding IsBusy}"
+                               HorizontalOptions="FillAndExpand"
+                               VerticalOptions="CenterAndExpand"/>
+
             <CollectionView ItemsSource="{Binding Movie}"
-                        SelectionMode="None">
+                        SelectionMode="Single"
+                        SelectedItem="{Binding SelectedMovieItem}"
+                        SelectionChangedCommand="{Binding SelectionChangedCommand}">
 
                 <CollectionView.ItemTemplate>
                     <DataTemplate x:DataType="model:Result">
                         <Grid Padding="10">
                             <Frame HeightRequest="125">
-                                <Grid Padding="0" ColumnDefinitions="125,*">
+                                <Grid Margin="20,0,20,0" ColumnDefinitions="125,*">
                                     <Image Source="{Binding poster_path, StringFormat= 'https://image.tmdb.org/t/p/original/{0}'}"
                                            WidthRequest="125"
                                            HeightRequest="125"/>
-                                    <StackLayout
-                                        Grid.Column="1"
-                                        Padding="10"
-                                        VerticalOptions="Center">
-                                    <Label Style="{StaticResource baseLabelStyle}" Text="{Binding title}"/>
-                                    </StackLayout>
+                                    <Label Style="{StaticResource TitleLabelStyle}" Text="{Binding title}"/>
                                 </Grid>
                             </Frame>
                         </Grid>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
-        </CollectionView>
-
-        <ActivityIndicator IsVisible="{Binding IsBusy}"
-                               IsRunning="{Binding IsBusy}"
-                               HorizontalOptions="FillAndExpand"
-                               VerticalOptions="CenterAndExpand"/>
-
-        <Button Text="LOAD" Command="{Binding GetMovieComand}"/>
+       </CollectionView>
     </StackLayout>
 </ContentPage>
 

@@ -18,18 +18,19 @@
                 VerticalOptions="Center" 
                 HorizontalOptions="Center"/>
         <HorizontalStackLayout>
-            <Label Text="Ratings:  "/>
-            <Label Text="{Binding SelectedMovie.vote_average}" />
+            <Label Text="Ratings:  " Style="{StaticResource infoLabelStyle}"/>
+            <Label Text="{Binding SelectedMovie.vote_average}" Style="{StaticResource baseLabelStyle}"/>
         </HorizontalStackLayout>
         <HorizontalStackLayout>
-            <Label Text="Release Date:  "/>
-            <Label Text="{Binding SelectedMovie.release_date}"/>
+            <Label Text="Release Date:  " Style="{StaticResource infoLabelStyle}"/>
+            <Label Text="{Binding SelectedMovie.release_date}" Style="{StaticResource infoLabelStyle}"/>
         </HorizontalStackLayout>
         <VerticalStackLayout
             Margin="0,20,0,20">
-            <Label Text="Overview"/>
-            <Label Text="{Binding SelectedMovie.overview}" />
+            <Label Text="Overview" Style="{StaticResource infoLabelStyle}"/>
+            <Label Text="{Binding SelectedMovie.overview}" Style="{StaticResource baseLabelStyle}"/>
         </VerticalStackLayout>
+        <Label Text="{Binding SelectedMovie.original_language}" Style="{StaticResource baseLabelStyle}"/>
     </StackLayout>
 </ContentPage>
 

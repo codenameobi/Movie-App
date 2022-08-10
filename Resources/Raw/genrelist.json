@@ -1,12 +1,12 @@
 [
   {
     "Id": 28,
-    "Image": "",
+    "Image": "action.png",
     "Name": "Action"
   },
   {
     "Id": 12,
-    "Image": "",
+    "Image": "adventure.png",
     "Name": "Adventure"
   },
   {
@@ -46,17 +46,17 @@
   },
   {
     "Id": 36,
-    "Image": "",
+    "Image": "history.png",
     "Name": "History"
   },
   {
     "Id": 27,
-    "Image": "",
+    "Image": "horror.png",
     "Name": "Horror"
   },
   {
     "Id": 10402,
-    "Image": "",
+    "Image": "music.png",
     "Name": "Music"
   },
   {
@@ -86,7 +86,7 @@
   },
   {
     "Id": 10752,
-    "Image": "",
+    "Image": "war.png",
     "Name": "War"
   },
   {

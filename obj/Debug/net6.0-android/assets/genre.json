@@ -1,12 +1,12 @@
 [
   {
     "id": 28,
-    "image": "",
+    "image": "action.png",
     "name": "Action"
   },
   {
     "id": 12,
-    "image": "",
+    "image": "adventure.png",
     "name": "Adventure"
   },
   {
@@ -46,17 +46,17 @@
   },
   {
     "id": 36,
-    "image": "",
+    "image": "history.png",
     "name": "History"
   },
   {
     "id": 27,
-    "image": "",
+    "image": "horror.png",
     "name": "Horror"
   },
   {
     "id": 10402,
-    "image": "",
+    "image": "music.png",
     "name": "Music"
   },
   {

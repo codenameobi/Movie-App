@@ -35,9 +35,7 @@
 		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
 
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\splash.png" Color="#512B04" TintColor="#66B3FF" Resize="True" />
-
-		<!-- Images -->
+		<MauiSplashScreen Include="Resources\Splash\splash.png" />
 		<MauiImage Include="Resources\Images\*" />
 		<MauiFont Include="Resources\Fonts\*" />
 
@@ -53,12 +51,14 @@
 	  <None Remove="CommunityToolkit.Mvvm" />
 	  <None Remove="Views\" />
 	  <None Remove="IdentityModel.OidcClient" />
+	  <None Remove="Resources\Splash\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Models\" />
 	  <Folder Include="Services\" />
 	  <Folder Include="ViewModels\" />
 	  <Folder Include="Views\" />
+	  <Folder Include="Resources\Splash\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
