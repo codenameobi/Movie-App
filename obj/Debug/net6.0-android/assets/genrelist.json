@@ -11,37 +11,37 @@
   },
   {
     "Id": 16,
-    "Image": "",
+    "Image": "animation.png",
     "Name": "Animation"
   },
   {
     "Id": 35,
-    "Image": "",
+    "Image": "comedy.png",
     "Name": "Comedy"
   },
   {
     "Id": 80,
-    "Image": "",
+    "Image": "crime.png",
     "Name": "Crime"
   },
   {
     "Id": 99,
-    "Image": "",
+    "Image": "documentary.png",
     "Name": "Documentary"
   },
   {
     "Id": 18,
-    "Image": "",
+    "Image": "drama.png",
     "Name": "Drama"
   },
   {
     "Id": 10751,
-    "Image": "",
+    "Image": "family.png",
     "Name": "Family"
   },
   {
     "Id": 14,
-    "Image": "",
+    "Image": "fantasy.png",
     "Name": "Fantasy"
   },
   {
@@ -61,27 +61,27 @@
   },
   {
     "Id": 9648,
-    "Image": "",
+    "Image": "mystery.png",
     "Name": "Mystery"
   },
   {
     "Id": 10749,
-    "Image": "",
+    "Image": "romance.png",
     "Name": "Romance"
   },
   {
     "Id": 878,
-    "Image": "",
+    "Image": "science_fiction.png",
     "Name": "Science Fiction"
   },
   {
     "Id": 10770,
-    "Image": "",
-    "Name": "TV Movie"
+    "Image": "tvshows.png",
+    "Name": "TV Shows"
   },
   {
     "Id": 53,
-    "Image": "",
+    "Image": "thriller.png",
     "Name": "Thriller"
   },
   {
@@ -91,7 +91,7 @@
   },
   {
     "Id": 37,
-    "Image": "",
+    "Image": "western.png",
     "Name": "Western"
   }
 ]

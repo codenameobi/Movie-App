@@ -6,7 +6,7 @@
              xmlns:viewmodel="clr-namespace:TimesNewsApp.ViewModels"
              x:DataType="viewmodel:MovieListGenrePageViewModel"
               Title="{Binding SelectedGenre.Name}">
-    <StackLayout>
+    <Grid Margin="0,32,0,0">
 
             <ActivityIndicator IsVisible="{Binding IsBusy}"
                                IsRunning="{Binding IsBusy}"
@@ -21,18 +21,25 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate x:DataType="model:Result">
                         <Grid Padding="10">
-                            <Frame HeightRequest="125">
-                                <Grid Margin="20,0,20,0" ColumnDefinitions="125,*">
+                            <Frame Style="{StaticResource CardView}">
+                                <Grid Padding="0" RowDefinitions="200,*">
                                     <Image Source="{Binding poster_path, StringFormat= 'https://image.tmdb.org/t/p/original/{0}'}"
-                                           WidthRequest="125"
-                                           HeightRequest="125"/>
-                                    <Label Style="{StaticResource TitleLabelStyle}" Text="{Binding title}"/>
+                                           Grid.Row="0"
+                                           Aspect="AspectFill"
+                                           WidthRequest="150"
+                                           HeightRequest="225"/>
+                                    <StackLayout
+                                        Grid.Row="1"
+                                        Padding="10"
+                                        VerticalOptions="Center">
+                                    <Label Text="{Binding title}" Style="{StaticResource titleLabelStyle}"/>
+                                    </StackLayout>
                                 </Grid>
                             </Frame>
                         </Grid>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
        </CollectionView>
-    </StackLayout>
+    </Grid>
 </ContentPage>
 

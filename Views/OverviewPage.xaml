@@ -6,23 +6,25 @@
              xmlns:viewmodel="clr-namespace:TimesNewsApp.ViewModels"
              x:DataType="viewmodel:OverviewPageViewModel"
              Title="{Binding Title}">
-          <Grid>
+          <Grid Margin="0,40,0,0">
             <CollectionView ItemsSource="{Binding Genre}"
                             SelectionMode="Single"
                             SelectedItem="{Binding SelectedGenre}"
                             SelectionChangedCommand="{Binding SelectionCommand}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate x:DataType="model:Genre">
-                        <Frame Padding="20" HeightRequest="125">
+                        <Grid Padding="10">
+                        <Frame HeightRequest="125"  >
                         <Grid 
                               ColumnDefinitions="*,*">
                             <Image Grid.Column="0"
                                 Source="{Binding Image}"/>
-                            
-                             <Label Grid.Column="1" Text="{Binding Name}"/>
-                            
+                            <StackLayout Grid.Column="1" VerticalOptions="Center">
+                             <Label Text="{Binding Name}" Style="{StaticResource titleLabelStyle}"/>
+                            </StackLayout>
                         </Grid>
                             </Frame>
+                            </Grid>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>

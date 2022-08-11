@@ -2,6 +2,8 @@
 @string/appbar_scrolling_view_behavior;/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/lp/154/jl/res/layout/navigationlayout.xml
 adaptive-icon;obj/Debug/net6.0-android/resizetizer/r/mipmap-anydpi-v26/appicon_round.xml
 adaptive-icon;obj/Debug/net6.0-android/resizetizer/r/mipmap-anydpi-v26/appicon.xml
+adaptive-icon;obj/Debug/net6.0-android/resizetizer/r/mipmap-anydpi-v26/icon_round.xml
+adaptive-icon;obj/Debug/net6.0-android/resizetizer/r/mipmap-anydpi-v26/icon.xml
 alpha;/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/lp/151/jl/res/anim/enterfromleft.xml
 alpha;/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/lp/151/jl/res/anim/exittoleft.xml
 alpha;/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/lp/154/jl/res/anim/nav_default_enter_anim.xml
@@ -17,9 +19,10 @@ attr;/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/lp
 attr;/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/lp/154/jl/res/values/attr.xml
 background;obj/Debug/net6.0-android/resizetizer/r/mipmap-anydpi-v26/appicon_round.xml
 background;obj/Debug/net6.0-android/resizetizer/r/mipmap-anydpi-v26/appicon.xml
+background;obj/Debug/net6.0-android/resizetizer/r/mipmap-anydpi-v26/icon_round.xml
+background;obj/Debug/net6.0-android/resizetizer/r/mipmap-anydpi-v26/icon.xml
 cache-path;/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/lp/155/jl/res/xml/microsoft_maui_essentials_fileprovider_file_paths.xml
 color;/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/lp/154/jl/res/values/colors.xml
-color;obj/Debug/net6.0-android/res/resources/values/maui_colors.xml
 color;obj/Debug/net6.0-android/res/values/colors.xml
 com.google.android.material.appbar.AppBarLayout;/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/lp/151/jl/res/layout/flyoutcontent.xml
 com.google.android.material.appbar.AppBarLayout;/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/lp/151/jl/res/layout/shellcontent.xml
@@ -32,6 +35,8 @@ external-cache-path;/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/ne
 external-path;/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/lp/155/jl/res/xml/microsoft_maui_essentials_fileprovider_file_paths.xml
 foreground;obj/Debug/net6.0-android/resizetizer/r/mipmap-anydpi-v26/appicon_round.xml
 foreground;obj/Debug/net6.0-android/resizetizer/r/mipmap-anydpi-v26/appicon.xml
+foreground;obj/Debug/net6.0-android/resizetizer/r/mipmap-anydpi-v26/icon_round.xml
+foreground;obj/Debug/net6.0-android/resizetizer/r/mipmap-anydpi-v26/icon.xml
 item;/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/lp/152/jl/res/values/styles.xml
 item;/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/lp/154/jl/res/drawable/maui_splash.xml
 item;/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/lp/154/jl/res/values/styles.xml
@@ -70,3 +75,4 @@ translate;/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-andro
 translate;/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/lp/154/jl/res/anim/nav_default_exit_anim.xml
 translate;/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/lp/154/jl/res/anim/nav_default_pop_enter_anim.xml
 translate;/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-android/lp/154/jl/res/anim/nav_default_pop_exit_anim.xml
+vector;obj/Debug/net6.0-android/resizetizer/r/drawable/icon_foreground.xml

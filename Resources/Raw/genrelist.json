@@ -71,12 +71,12 @@
   },
   {
     "Id": 878,
-    "Image": "science-fiction.png",
+    "Image": "science_fiction.png",
     "Name": "Science Fiction"
   },
   {
     "Id": 10770,
-    "Image": "tv-shows.png",
+    "Image": "tvshows.png",
     "Name": "TV Shows"
   },
   {

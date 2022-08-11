@@ -10,7 +10,7 @@
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		uY9HjNOzJBHMksWE9HncW7lzE88=
+		vjxJpkWvC38YIUeNVfLM9S37500=
 		</data>
 		<key>Resources/MauiInfo.plist</key>
 		<data>
@@ -32,9 +32,29 @@
 		<data>
 		+pkR8STIhKYS2T/2wOrzT2V/v5Y=
 		</data>
+		<key>Resources/adventure.png</key>
+		<data>
+		/WzQToR/Dch1mQXWG+FZpS9dUyg=
+		</data>
+		<key>Resources/animation.png</key>
+		<data>
+		3hYBST1G7QN+0qXjrpfw3MioRGM=
+		</data>
 		<key>Resources/appicon.icns</key>
 		<data>
 		+3OXSNbSQlGewANT5vF33CDGomQ=
+		</data>
+		<key>Resources/comedy.png</key>
+		<data>
+		lUnPMZvVyDgBDgz4z20OvDV1I6s=
+		</data>
+		<key>Resources/crime.png</key>
+		<data>
+		gTYBBXvWkYvC6L9PTWrfD6usamo=
+		</data>
+		<key>Resources/documentary.png</key>
+		<data>
+		WoQ2GHyHdYMRqKDP+JJ0vm1cHgw=
 		</data>
 		<key>Resources/dotnet_bot.png</key>
 		<data>
@@ -48,13 +68,29 @@
 		<data>
 		q9YkYdXEtTarjODSzZazJNqUnN4=
 		</data>
+		<key>Resources/drama.png</key>
+		<data>
+		ecdBqMwPD7rIAwKxfKzilvkDnXE=
+		</data>
+		<key>Resources/family.png</key>
+		<data>
+		wJJvrZiZHaSfoaHOkN44eHSAI08=
+		</data>
+		<key>Resources/fantasy.png</key>
+		<data>
+		MbOvLC4soWzEo/P7wregnhtl3Ec=
+		</data>
 		<key>Resources/genre.json</key>
 		<data>
 		VojBuM//Cdv05WrCrOG6OEhyRXQ=
 		</data>
 		<key>Resources/genrelist.json</key>
 		<data>
-		EuWpIymfzOnQ7eJaLbSMQtGKR0g=
+		PAXEaxm2DFAzfdX1Rz5Rdn0axOk=
+		</data>
+		<key>Resources/history.png</key>
+		<data>
+		LoKAODOv36JUot7NhwwvEqwHB90=
 		</data>
 		<key>Resources/horror.png</key>
 		<data>
@@ -68,9 +104,37 @@
 		<data>
 		rgAV59PQVZB84g2a6leQir78Ev8=
 		</data>
+		<key>Resources/music.png</key>
+		<data>
+		QoG+yc4OcGmHJGfBj24Xecucq4g=
+		</data>
+		<key>Resources/mystery.png</key>
+		<data>
+		Ig2gWaMqqEkVMDIaiPXHq4895oc=
+		</data>
+		<key>Resources/romance.png</key>
+		<data>
+		xBZ0PS0lNN1QoA/qHpa8YcBphB0=
+		</data>
+		<key>Resources/science_fiction.png</key>
+		<data>
+		PH/Gv8GDu+it8vQeCtoLNeGLvpU=
+		</data>
+		<key>Resources/thriller.png</key>
+		<data>
+		Q2ml27CSax2qcnZSOWhgDbRSrC0=
+		</data>
+		<key>Resources/tvshows.png</key>
+		<data>
+		z0G0cOS0qP3uckgDvl2xpLYFpfc=
+		</data>
 		<key>Resources/war.png</key>
 		<data>
 		+Prm3sFwA1fwNCNqUgAvorBzAb4=
+		</data>
+		<key>Resources/western.png</key>
+		<data>
+		hLaGjjWIGKUx6Ft/d3j0K2IXJlw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -1353,14 +1417,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eBZMd9lSWZwP+PdGMSWN0viAv9pDCjXJGAgnpPim5r0=
+			Bmuiea5cdbmRFhyd5rsBfN2FXAEbhOOcOWoj99+yvkg=
 			</data>
 		</dict>
 		<key>MonoBundle/TimesNewsApp.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NSSfvoXIcsZd9r0XKuNxdnYgOz02hZ5cFPoolM0J+hA=
+			HAIIFxL26O5jdFO4ADgPfpiiKT2kNN2eK+DB93wp6Co=
 			</data>
 		</dict>
 		<key>MonoBundle/WindowsBase.dll</key>
@@ -1451,7 +1515,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lR8rJsdRGrWipFvz6ptQRT9cp6df/+yXRbbQVaJryc4=
+			Z0MS7qqBwvoE3fahqGlcUHnJNT5EcJCPv4ve1JCA6VQ=
 			</data>
 		</dict>
 		<key>Resources/MauiInfo.plist</key>
@@ -1489,11 +1553,46 @@
 			nY487mEc5iFgKNES3iXnbTk9R123B90B/Tki13CJtDg=
 			</data>
 		</dict>
+		<key>Resources/adventure.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eETMMqBkjUJAyIBnCQrc2R4oA8jUxCMv5uedqu3hRWI=
+			</data>
+		</dict>
+		<key>Resources/animation.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			84ildCi2zxru3drLRW5zV8NeSo2CfYBYMQ/rGpKm/xU=
+			</data>
+		</dict>
 		<key>Resources/appicon.icns</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			tMWaXjiKM3CDVFlhR0jdd8xnW5tCO5lkw5Z5zqn2VAg=
+			</data>
+		</dict>
+		<key>Resources/comedy.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			C5aaTEOqkIPXlgI+0r+h7wBNJL6o24q4L221WTwxd2k=
+			</data>
+		</dict>
+		<key>Resources/crime.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1rRIRu+dlwbnYKTwDD70XJNiIoMsK6QLIbKUU6psnfY=
+			</data>
+		</dict>
+		<key>Resources/documentary.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			um7rSk6a3oL337EJ8iIccoMqyOhfkRbQ1x1E6ZEiKaw=
 			</data>
 		</dict>
 		<key>Resources/dotnet_bot.png</key>
@@ -1517,6 +1616,27 @@
 			vjYg7v38aCvp3YfVnOekZFebcitnM5IsjyinFJGMvWI=
 			</data>
 		</dict>
+		<key>Resources/drama.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0tfuJ/qVheC29WOSuSTqtZR4l8rFAbpTMHw1vR5HH2Q=
+			</data>
+		</dict>
+		<key>Resources/family.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zbKkx6roUa5vY0t/TtYMfKtCIFbSixEmVqyMTudTIT8=
+			</data>
+		</dict>
+		<key>Resources/fantasy.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SYy8Cv01Lqvlg0QcfdVCRq+QIwOG/dL/0pnEhwxOtN4=
+			</data>
+		</dict>
 		<key>Resources/genre.json</key>
 		<dict>
 			<key>hash2</key>
@@ -1528,7 +1648,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fm6vm7uCt5WqVHpoj9KQVLWefJLWp7NYbdTxgbzQWfs=
+			6f+DVU6Ng7+zZcFObtUnccYUCTz4sgwU+Mt/W8By/qc=
+			</data>
+		</dict>
+		<key>Resources/history.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			90BE07eBVnflR5V2ekDEH4o9RSNhQl5uyseGQ1GEkUE=
 			</data>
 		</dict>
 		<key>Resources/horror.png</key>
@@ -1552,11 +1679,60 @@
 			K8B4qv6ObHFev4fzoHaM7yhOp+yNo02LT5/RbJi3UNc=
 			</data>
 		</dict>
+		<key>Resources/music.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mDZLUP6BOHdhxXwu9DgsbcjgsrcfeGYADg/RLzuGNKY=
+			</data>
+		</dict>
+		<key>Resources/mystery.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HUf1gMhjHBWDhoUc6gvxPcRj7OlUtaWqh1mDSW9eJzw=
+			</data>
+		</dict>
+		<key>Resources/romance.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VSGOgqIpuwsS5+6d5730/9Gjaj12pRoyXCGv6arJth4=
+			</data>
+		</dict>
+		<key>Resources/science_fiction.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gEKZRCvUdmIX5z3xSJt/R8Sq4Hpns3sdhaygp6As6v4=
+			</data>
+		</dict>
+		<key>Resources/thriller.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OATNwHCEIqPFM5S+psqidZ4pS4p+IUeCJidkLZvLVDs=
+			</data>
+		</dict>
+		<key>Resources/tvshows.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TVoiheuZozrgMGKWXSPpbprJShRAhCnqZf7Lt748Bo0=
+			</data>
+		</dict>
 		<key>Resources/war.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			EMERE5xXSMaxN2PvKe4Gm+3HgiyigECQd8NJe3Ni8QE=
+			</data>
+		</dict>
+		<key>Resources/western.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			W0sOkBpR9xGk5DKeJNPDbEfC8nX/1qJHqTrCGG0tZhE=
 			</data>
 		</dict>
 	</dict>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B0WTEaPNaDbkxh+KS5O1euQY+6aaPTPGEowjogSKP7sSYvTIQbzvzDROgHH7Tqn2HQiSunD1eTs0AmyoelYpUQ==",
+  "dgSpecHash": "plZcattBO5HTO2n7wMFdwu8GQ7axoinsC/36bquF1EtX74Mg3FLz91UMjWARYVpHI4I0RyC3mZu1tFy3nZu7Ew==",
   "success": true,
-  "projectFilePath": "/Users/admin/Projects/TimesNewsApp/TimesNewsApp/TimesNewsApp.csproj",
+  "projectFilePath": "/Users/admin/Projects/TimesNewsApp/TimesNewsApp/Movie-App.csproj",
   "expectedPackageFiles": [
     "/Users/admin/.nuget/packages/communitytoolkit.mvvm/7.1.2/communitytoolkit.mvvm.7.1.2.nupkg.sha512",
     "/Users/admin/.nuget/packages/googlegson/2.9.0.1/googlegson.2.9.0.1.nupkg.sha512",
@@ -104,9 +104,9 @@
     "/Users/admin/.nuget/packages/xamarin.kotlin.stdlib.jdk8/1.6.20.1/xamarin.kotlin.stdlib.jdk8.1.6.20.1.nupkg.sha512",
     "/Users/admin/.nuget/packages/xamarin.kotlinx.coroutines.android/1.6.0.1/xamarin.kotlinx.coroutines.android.1.6.0.1.nupkg.sha512",
     "/Users/admin/.nuget/packages/xamarin.kotlinx.coroutines.core.jvm/1.6.0.1/xamarin.kotlinx.coroutines.core.jvm.1.6.0.1.nupkg.sha512",
-    "/Users/admin/.nuget/packages/microsoft.netcore.app.host.linux-arm/6.0.6/microsoft.netcore.app.host.linux-arm.6.0.6.nupkg.sha512",
-    "/Users/admin/.nuget/packages/microsoft.netcore.app.host.linux-arm64/6.0.6/microsoft.netcore.app.host.linux-arm64.6.0.6.nupkg.sha512",
-    "/Users/admin/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.6/microsoft.netcore.app.host.linux-x64.6.0.6.nupkg.sha512"
+    "/Users/admin/.nuget/packages/microsoft.netcore.app.host.linux-arm/6.0.8/microsoft.netcore.app.host.linux-arm.6.0.8.nupkg.sha512",
+    "/Users/admin/.nuget/packages/microsoft.netcore.app.host.linux-arm64/6.0.8/microsoft.netcore.app.host.linux-arm64.6.0.8.nupkg.sha512",
+    "/Users/admin/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.8/microsoft.netcore.app.host.linux-x64.6.0.8.nupkg.sha512"
   ],
   "logs": []
 }
