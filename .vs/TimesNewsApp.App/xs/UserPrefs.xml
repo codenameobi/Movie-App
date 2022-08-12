@@ -1,33 +1,34 @@
 ﻿<Properties StartupConfiguration="{D9874435-68EE-42C2-8BFA-222DA32B4E31}|Default">
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.AFE0F50C-946B-4359-941D-0C8411A70DED" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Movie-App PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.AFE0F50C-946B-4359-941D-0C8411A70DED" />
+  <MonoDevelop.Ide.ItemProperties.TimesNewsApp PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MultiItemStartupConfigurations />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Properties/launchSettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Resources/Raw/genrelist.json">
     <Files>
-      <File FileName="MovieReviewPage.xaml" Line="1" Column="1" />
-      <File FileName="App.xaml" Line="1" Column="1" />
-      <File FileName="AppShell.xaml" Line="13" Column="27" />
-      <File FileName="MauiProgram.cs" Line="1" Column="1" />
-      <File FileName="Resources/Splash/splash.svg" Line="1" Column="1" />
-      <File FileName="App.xaml.cs" Line="1" Column="1" />
-      <File FileName="Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="MauiProgram.cs" />
+      <File FileName="App.xaml.cs" />
+      <File FileName="Properties/launchSettings.json" />
+      <File FileName="../../../../../usr/local/share/dotnet/packs/Microsoft.Maui.Resizetizer.Sdk/6.0.312/targets/Microsoft.Maui.Resizetizer.targets" />
+      <File FileName="Resources/Raw/genrelist.json" Line="74" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TimesNewsApp.App" expanded="True">
-            <Node name="TimesNewsApp" expanded="True" />
+            <Node name="TimesNewsApp" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="Images" expanded="True" />
+                <Node name="Raw" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.TimesNewsApp PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.AFE0F50C-946B-4359-941D-0C8411A70DED" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
 </Properties>

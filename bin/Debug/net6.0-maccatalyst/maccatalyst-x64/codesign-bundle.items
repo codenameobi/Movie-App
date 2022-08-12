@@ -12,7 +12,7 @@
       <CodesignDisableTimestamp>true</CodesignDisableTimestamp>
       <CodesignKeychain></CodesignKeychain>
       <CodesignUseHardenedRuntime></CodesignUseHardenedRuntime>
-      <SourceProjectPath>/Users/admin/Projects/TimesNewsApp/TimesNewsApp</SourceProjectPath>
+      <SourceProjectPath>/Users/admin/Projects/Movie-App/TimesNewsApp</SourceProjectPath>
     </_CodesignBundle>
   </ItemGroup>
 </Project>

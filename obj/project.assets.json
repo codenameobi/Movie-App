@@ -16551,11 +16551,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/admin/Projects/TimesNewsApp/TimesNewsApp/TimesNewsApp.csproj",
+      "projectUniqueName": "/Users/admin/Projects/Movie-App/TimesNewsApp/TimesNewsApp.csproj",
       "projectName": "TimesNewsApp",
-      "projectPath": "/Users/admin/Projects/TimesNewsApp/TimesNewsApp/TimesNewsApp.csproj",
+      "projectPath": "/Users/admin/Projects/Movie-App/TimesNewsApp/TimesNewsApp.csproj",
       "packagesPath": "/Users/admin/.nuget/packages/",
-      "outputPath": "/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/",
+      "outputPath": "/Users/admin/Projects/Movie-App/TimesNewsApp/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
@@ -16631,15 +16631,15 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Host.linux-arm",
-            "version": "[6.0.6, 6.0.6]"
+            "version": "[6.0.8, 6.0.8]"
           },
           {
             "name": "Microsoft.NETCore.App.Host.linux-arm64",
-            "version": "[6.0.6, 6.0.6]"
+            "version": "[6.0.8, 6.0.8]"
           },
           {
             "name": "Microsoft.NETCore.App.Host.linux-x64",
-            "version": "[6.0.6, 6.0.6]"
+            "version": "[6.0.8, 6.0.8]"
           }
         ],
         "frameworkReferences": {
@@ -16659,7 +16659,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400-preview.22330.6/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
       },
       "net6.0-ios15.4": {
         "targetAlias": "net6.0-ios",
@@ -16720,7 +16720,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400-preview.22330.6/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
       },
       "net6.0-maccatalyst15.4": {
         "targetAlias": "net6.0-maccatalyst",
@@ -16782,7 +16782,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400-preview.22330.6/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

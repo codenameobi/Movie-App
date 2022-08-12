@@ -29,7 +29,7 @@
                                         Grid.Row="1"
                                         Padding="10"
                                         VerticalOptions="Center">
-                                    <Label Text="{Binding title}" Style="{StaticResource infoLabelStyle}"/>
+                                    <Label Text="{Binding title}" Style="{StaticResource TitleLabelStyle}"/>
                                     </StackLayout>
                                 </Grid>
                             </Frame>

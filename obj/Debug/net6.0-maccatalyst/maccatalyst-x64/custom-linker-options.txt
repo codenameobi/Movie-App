@@ -3,7 +3,7 @@ AreAnyAssembliesTrimmed=false
 				AOTCompiler=/usr/local/share/dotnet/packs/Microsoft.NETCore.App.Runtime.AOT.osx-x64.Cross.maccatalyst-x64/6.0.5/Sdk/../tools/mono-aot-cross
 				AOTOutputDirectory=obj/Debug/net6.0-maccatalyst/maccatalyst-x64/nativelibraries/aot-output/
 				AppBundleManifestPath=bin/Debug/net6.0-maccatalyst/maccatalyst-x64/TimesNewsApp.app/Contents/Info.plist
-				CacheDirectory=/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/linker-cache
+				CacheDirectory=/Users/admin/Projects/Movie-App/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/linker-cache
 				
 				Debug=true
 				DeploymentTarget=14.2
@@ -179,7 +179,7 @@ FrameworkAssembly=System.Private.CoreLib
 				Interpreter=all
 				IntermediateLinkDir=obj/Debug/net6.0-maccatalyst/maccatalyst-x64/linked/
 				InvariantGlobalization=false
-				ItemsDirectory=/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/linker-items
+				ItemsDirectory=/Users/admin/Projects/Movie-App/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/linker-items
 				IsAppExtension=false
 				IsSimulatorBuild=True
 				LibMonoLinkMode=dylib

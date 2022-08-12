@@ -31,6 +31,8 @@
             <Label Text="{Binding SelectedMovie.overview}" Style="{StaticResource baseLabelStyle}"/>
         </VerticalStackLayout>
         <Label Text="{Binding SelectedMovie.original_language}" Style="{StaticResource baseLabelStyle}"/>
+        <Button Text="Download" HeightRequest="200" WidthRequest="350"
+                BackgroundColor="Black" TextColor="White"/>
     </StackLayout>
 </ContentPage>
 
