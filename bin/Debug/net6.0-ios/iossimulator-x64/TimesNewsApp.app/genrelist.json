@@ -76,7 +76,11 @@
   },
   {
     "Id": 10770,
+<<<<<<< HEAD
     "Image": "tv_shows.png",
+=======
+    "Image": "tvshows.png",
+>>>>>>> e740c42f73e424987cd8c0bbec35b1049bf60125
     "Name": "TV Shows"
   },
   {

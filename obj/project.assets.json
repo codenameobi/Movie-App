@@ -16551,9 +16551,15 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "/Users/admin/Projects/Movie-App/TimesNewsApp/TimesNewsApp.csproj",
       "projectName": "TimesNewsApp",
       "projectPath": "/Users/admin/Projects/Movie-App/TimesNewsApp/TimesNewsApp.csproj",
+=======
+      "projectUniqueName": "/Users/admin/Projects/TimesNewsApp/TimesNewsApp/Movie-App.csproj",
+      "projectName": "Movie-App",
+      "projectPath": "/Users/admin/Projects/TimesNewsApp/TimesNewsApp/Movie-App.csproj",
+>>>>>>> e740c42f73e424987cd8c0bbec35b1049bf60125
       "packagesPath": "/Users/admin/.nuget/packages/",
       "outputPath": "/Users/admin/Projects/Movie-App/TimesNewsApp/obj/",
       "projectStyle": "PackageReference",

@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "5cJu+3OgcaZMt9JfS0cUxkwSrRKljtWkjmfhmcQTIJInEPJMrLlVc6bzZ3z3cKF+QlG6k/6wnSEdE0howCaH+A==",
   "success": true,
   "projectFilePath": "/Users/admin/Projects/Movie-App/TimesNewsApp/TimesNewsApp.csproj",
+=======
+  "dgSpecHash": "plZcattBO5HTO2n7wMFdwu8GQ7axoinsC/36bquF1EtX74Mg3FLz91UMjWARYVpHI4I0RyC3mZu1tFy3nZu7Ew==",
+  "success": true,
+  "projectFilePath": "/Users/admin/Projects/TimesNewsApp/TimesNewsApp/Movie-App.csproj",
+>>>>>>> e740c42f73e424987cd8c0bbec35b1049bf60125
   "expectedPackageFiles": [
     "/Users/admin/.nuget/packages/communitytoolkit.mvvm/7.1.2/communitytoolkit.mvvm.7.1.2.nupkg.sha512",
     "/Users/admin/.nuget/packages/googlegson/2.9.0.1/googlegson.2.9.0.1.nupkg.sha512",

@@ -15,7 +15,7 @@
 		<ApplicationTitle>TimesNewsApp</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.companyname.timesnewsapp</ApplicationId>
+		<ApplicationId>com.companyname.movie-app</ApplicationId>
 		<ApplicationIdGuid>1B11F214-5FD7-4718-AE3B-74948AC02D18</ApplicationIdGuid>
 
 		<!-- Versions -->
@@ -32,10 +32,10 @@
 
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
+		<MauiIcon Include="Resources\AppIcon\icon.png" />
 
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\splash.png" />
+		<MauiSplashScreen Include="Resources\Splash\splash.png" Resize="true" />
 		<MauiImage Include="Resources\Images\*" />
 		<MauiFont Include="Resources\Fonts\*" />
 

@@ -10963,6 +10963,7 @@ public final class R {
     public static final int ic_mtrl_chip_close_circle=0x7f070078;
     public static final int icon1=0x7f070079;
     public static final int icon2=0x7f07007a;
+<<<<<<< HEAD
     public static final int m3_appbar_background=0x7f07007b;
     public static final int m3_popupmenu_background_overlay=0x7f07007c;
     public static final int m3_radiobutton_ripple=0x7f07007d;
@@ -11019,6 +11020,65 @@ public final class R {
     public static final int tv_shows=0x7f0700b0;
     public static final int war=0x7f0700b1;
     public static final int western=0x7f0700b2;
+=======
+    public static final int icon_foreground=0x7f07007b;
+    public static final int m3_appbar_background=0x7f07007c;
+    public static final int m3_popupmenu_background_overlay=0x7f07007d;
+    public static final int m3_radiobutton_ripple=0x7f07007e;
+    public static final int m3_selection_control_ripple=0x7f07007f;
+    public static final int m3_tabs_background=0x7f070080;
+    public static final int m3_tabs_line_indicator=0x7f070081;
+    public static final int m3_tabs_rounded_line_indicator=0x7f070082;
+    public static final int m3_tabs_transparent_background=0x7f070083;
+    public static final int material_cursor_drawable=0x7f070084;
+    public static final int material_ic_calendar_black_24dp=0x7f070085;
+    public static final int material_ic_clear_black_24dp=0x7f070086;
+    public static final int material_ic_edit_black_24dp=0x7f070087;
+    public static final int material_ic_keyboard_arrow_left_black_24dp=0x7f070088;
+    public static final int material_ic_keyboard_arrow_next_black_24dp=0x7f070089;
+    public static final int material_ic_keyboard_arrow_previous_black_24dp=0x7f07008a;
+    public static final int material_ic_keyboard_arrow_right_black_24dp=0x7f07008b;
+    public static final int material_ic_menu_arrow_down_black_24dp=0x7f07008c;
+    public static final int material_ic_menu_arrow_up_black_24dp=0x7f07008d;
+    public static final int maui_splash=0x7f07008e;
+    public static final int maui_splash_image=0x7f07008f;
+    public static final int mtrl_dialog_background=0x7f070090;
+    public static final int mtrl_dropdown_arrow=0x7f070091;
+    public static final int mtrl_ic_arrow_drop_down=0x7f070092;
+    public static final int mtrl_ic_arrow_drop_up=0x7f070093;
+    public static final int mtrl_ic_cancel=0x7f070094;
+    public static final int mtrl_ic_error=0x7f070095;
+    public static final int mtrl_navigation_bar_item_background=0x7f070096;
+    public static final int mtrl_popupmenu_background=0x7f070097;
+    public static final int mtrl_popupmenu_background_overlay=0x7f070098;
+    public static final int mtrl_tabs_default_indicator=0x7f070099;
+    public static final int music=0x7f07009a;
+    public static final int mystery=0x7f07009b;
+    public static final int navigation_empty_icon=0x7f07009c;
+    public static final int notification_action_background=0x7f07009d;
+    public static final int notification_bg=0x7f07009e;
+    public static final int notification_bg_low=0x7f07009f;
+    public static final int notification_bg_low_normal=0x7f0700a0;
+    public static final int notification_bg_low_pressed=0x7f0700a1;
+    public static final int notification_bg_normal=0x7f0700a2;
+    public static final int notification_bg_normal_pressed=0x7f0700a3;
+    public static final int notification_icon_background=0x7f0700a4;
+    public static final int notification_template_icon_bg=0x7f0700a5;
+    public static final int notification_template_icon_low_bg=0x7f0700a6;
+    public static final int notification_tile_bg=0x7f0700a7;
+    public static final int notify_panel_notification_icon_bg=0x7f0700a8;
+    public static final int romance=0x7f0700a9;
+    public static final int science_fiction=0x7f0700aa;
+    public static final int splash=0x7f0700ab;
+    public static final int test_custom_background=0x7f0700ac;
+    public static final int test_level_drawable=0x7f0700ad;
+    public static final int thriller=0x7f0700ae;
+    public static final int tooltip_frame_dark=0x7f0700af;
+    public static final int tooltip_frame_light=0x7f0700b0;
+    public static final int tvshows=0x7f0700b1;
+    public static final int war=0x7f0700b2;
+    public static final int western=0x7f0700b3;
+>>>>>>> e740c42f73e424987cd8c0bbec35b1049bf60125
   }
   public static final class id {
     public static final int ALT=0x7f080000;
@@ -11734,6 +11794,10 @@ public final class R {
     public static final int appicon_background=0x7f0d0001;
     public static final int appicon_foreground=0x7f0d0002;
     public static final int appicon_round=0x7f0d0003;
+    public static final int icon=0x7f0d0004;
+    public static final int icon_background=0x7f0d0005;
+    public static final int icon_foreground=0x7f0d0006;
+    public static final int icon_round=0x7f0d0007;
   }
   public static final class plurals {
     public static final int mtrl_badge_content_description=0x7f0e0000;

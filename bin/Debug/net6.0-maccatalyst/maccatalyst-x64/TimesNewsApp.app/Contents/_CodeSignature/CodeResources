@@ -86,7 +86,11 @@
 		</data>
 		<key>Resources/genrelist.json</key>
 		<data>
+<<<<<<< HEAD
 		ckd8AReXJeVFxAa/Xf2JXlTTMbk=
+=======
+		PAXEaxm2DFAzfdX1Rz5Rdn0axOk=
+>>>>>>> e740c42f73e424987cd8c0bbec35b1049bf60125
 		</data>
 		<key>Resources/history.png</key>
 		<data>
@@ -124,7 +128,11 @@
 		<data>
 		Q2ml27CSax2qcnZSOWhgDbRSrC0=
 		</data>
+<<<<<<< HEAD
 		<key>Resources/tv_shows.png</key>
+=======
+		<key>Resources/tvshows.png</key>
+>>>>>>> e740c42f73e424987cd8c0bbec35b1049bf60125
 		<data>
 		z0G0cOS0qP3uckgDvl2xpLYFpfc=
 		</data>
@@ -1417,14 +1425,22 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< HEAD
 			pIfkxO/JRDQsarzC05pI2ihTiGQgehf0JdY5lz5DnNo=
+=======
+			Bmuiea5cdbmRFhyd5rsBfN2FXAEbhOOcOWoj99+yvkg=
+>>>>>>> e740c42f73e424987cd8c0bbec35b1049bf60125
 			</data>
 		</dict>
 		<key>MonoBundle/TimesNewsApp.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< HEAD
 			pYJ1bUzYmk208le5yDLegiVhbvvQfKgleHSJxHxMzIE=
+=======
+			HAIIFxL26O5jdFO4ADgPfpiiKT2kNN2eK+DB93wp6Co=
+>>>>>>> e740c42f73e424987cd8c0bbec35b1049bf60125
 			</data>
 		</dict>
 		<key>MonoBundle/WindowsBase.dll</key>
@@ -1648,7 +1664,11 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< HEAD
 			SvcwmXqKp2sWX/cFcQ2rZ8efUgQB7PZA/xQ96R/nS7c=
+=======
+			6f+DVU6Ng7+zZcFObtUnccYUCTz4sgwU+Mt/W8By/qc=
+>>>>>>> e740c42f73e424987cd8c0bbec35b1049bf60125
 			</data>
 		</dict>
 		<key>Resources/history.png</key>
@@ -1714,7 +1734,11 @@
 			OATNwHCEIqPFM5S+psqidZ4pS4p+IUeCJidkLZvLVDs=
 			</data>
 		</dict>
+<<<<<<< HEAD
 		<key>Resources/tv_shows.png</key>
+=======
+		<key>Resources/tvshows.png</key>
+>>>>>>> e740c42f73e424987cd8c0bbec35b1049bf60125
 		<dict>
 			<key>hash2</key>
 			<data>

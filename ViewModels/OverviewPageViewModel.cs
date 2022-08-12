@@ -22,7 +22,7 @@ namespace TimesNewsApp.ViewModels
         public OverviewPageViewModel(FileService fileService)
         {
             this.fileService = fileService;
-            Title = "Homepage";
+            Title = "Movie Genres";
             GetGenreList();
             SelectionCommand = new Command(SelectGenre);
         }

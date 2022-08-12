@@ -11,5 +11,176 @@
 			<string>/Users/admin/Projects/Movie-App/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/actool/partial-info.plist</string>
 		</array>
 	</dict>
+	<key>com.apple.actool.document.warnings</key>
+	<array>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./icon.appiconset/[][iphone][60x60][][][3x][][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>icon.appiconset/icon60x60@3x.png is 168x180 but should be 180x180.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./icon.appiconset/[][ios-marketing][1024x1024][][][1x][][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>icon.appiconset/iconItunesArtwork.png is 955x1024 but should be 1024x1024.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./icon.appiconset/[][iphone][20x20][][][3x][][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>icon.appiconset/icon20x20@3x.png is 56x60 but should be 60x60.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./icon.appiconset/[][iphone][29x29][][][3x][][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>icon.appiconset/icon29x29@3x.png is 81x87 but should be 87x87.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./icon.appiconset/[][iphone][40x40][][][3x][][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>icon.appiconset/icon40x40@3x.png is 112x120 but should be 120x120.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./icon.appiconset/[][ipad][76x76][][][2x][][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>icon.appiconset/icon76x76@2x.png is 142x152 but should be 152x152.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./icon.appiconset/[][iphone][20x20][][][2x][][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>icon.appiconset/icon20x20@2x.png is 37x40 but should be 40x40.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./icon.appiconset/[][iphone][29x29][][][2x][][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>icon.appiconset/icon29x29@2x.png is 54x58 but should be 58x58.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./icon.appiconset/[][iphone][40x40][][][2x][][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>icon.appiconset/icon40x40@2x.png is 75x80 but should be 80x80.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./icon.appiconset/[][iphone][60x60][][][2x][][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>icon.appiconset/icon60x60@2x.png is 112x120 but should be 120x120.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./icon.appiconset/[][ipad][83.5x83.5][][][2x][][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>icon.appiconset/icon83.5x83.5@2x.png is 156x167 but should be 167x167.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./icon.appiconset/[][ipad][20x20][][][2x][][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>icon.appiconset/icon20x20@2x.png is 37x40 but should be 40x40.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./icon.appiconset/[][ipad][29x29][][][2x][][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>icon.appiconset/icon29x29@2x.png is 54x58 but should be 58x58.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./icon.appiconset/[][ipad][40x40][][][2x][][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/admin/Projects/TimesNewsApp/TimesNewsApp/obj/Debug/net6.0-maccatalyst/maccatalyst-x64/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>icon.appiconset/icon40x40@2x.png is 75x80 but should be 80x80.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+	</array>
 </dict>
 </plist>

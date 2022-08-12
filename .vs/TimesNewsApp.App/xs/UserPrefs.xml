@@ -1,24 +1,42 @@
+<<<<<<< HEAD
 ﻿<Properties StartupConfiguration="{D9874435-68EE-42C2-8BFA-222DA32B4E31}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Movie-App PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.AFE0F50C-946B-4359-941D-0C8411A70DED" />
   <MonoDevelop.Ide.ItemProperties.TimesNewsApp PreferredExecutionTarget="MyAppleMacCatalystID" />
   <MultiItemStartupConfigurations />
   <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+=======
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.TimesNewsApp PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.AFE0F50C-946B-4359-941D-0C8411A70DED" />
+  <MultiItemStartupConfigurations />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.AFE0F50C-946B-4359-941D-0C8411A70DED" />
+>>>>>>> e740c42f73e424987cd8c0bbec35b1049bf60125
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="Resources/Raw/genrelist.json">
     <Files>
+<<<<<<< HEAD
       <File FileName="MauiProgram.cs" />
       <File FileName="App.xaml.cs" />
       <File FileName="Properties/launchSettings.json" />
       <File FileName="../../../../../usr/local/share/dotnet/packs/Microsoft.Maui.Resizetizer.Sdk/6.0.312/targets/Microsoft.Maui.Resizetizer.targets" />
       <File FileName="Resources/Raw/genrelist.json" Line="74" Column="23" />
+=======
+      <File FileName="MovieReviewPage.xaml" />
+      <File FileName="App.xaml" />
+      <File FileName="AppShell.xaml" />
+      <File FileName="MauiProgram.cs" />
+      <File FileName="App.xaml.cs" />
+      <File FileName="Properties/launchSettings.json" Line="1" Column="1" />
+>>>>>>> e740c42f73e424987cd8c0bbec35b1049bf60125
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
+<<<<<<< HEAD
           <Node name="TimesNewsApp.App" expanded="True">
             <Node name="TimesNewsApp" expanded="True">
               <Node name="Resources" expanded="True">
@@ -27,6 +45,9 @@
               </Node>
             </Node>
           </Node>
+=======
+          <Node name="TimesNewsApp.App" expanded="True" selected="True" />
+>>>>>>> e740c42f73e424987cd8c0bbec35b1049bf60125
         </State>
       </Pad>
     </Pads>

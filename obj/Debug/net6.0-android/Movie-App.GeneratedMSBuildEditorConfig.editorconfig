@@ -1,0 +1,70 @@
+is_global = true
+build_property.TargetFramework = net6.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TimesNewsApp
+build_property.ProjectDir = /Users/admin/Projects/TimesNewsApp/TimesNewsApp/
+
+[/Users/admin/Projects/TimesNewsApp/TimesNewsApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TimesNewsApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/admin/Projects/TimesNewsApp/TimesNewsApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TimesNewsApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/admin/Projects/TimesNewsApp/TimesNewsApp/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TimesNewsApp.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[/Users/admin/Projects/TimesNewsApp/TimesNewsApp/MovieReviewPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TimesNewsApp.MovieReviewPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MovieReviewPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MovieReviewPage.xaml
+
+[/Users/admin/Projects/TimesNewsApp/TimesNewsApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TimesNewsApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/admin/Projects/TimesNewsApp/TimesNewsApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TimesNewsApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/admin/Projects/TimesNewsApp/TimesNewsApp/Views/MovieDetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TimesNewsApp.Views.MovieDetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/MovieDetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/MovieDetailsPage.xaml
+
+[/Users/admin/Projects/TimesNewsApp/TimesNewsApp/Views/MovieListGenrePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TimesNewsApp.Views.MovieListGenrePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/MovieListGenrePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/MovieListGenrePage.xaml
+
+[/Users/admin/Projects/TimesNewsApp/TimesNewsApp/Views/MovieSearchPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TimesNewsApp.Views.MovieSearchPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/MovieSearchPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/MovieSearchPage.xaml
+
+[/Users/admin/Projects/TimesNewsApp/TimesNewsApp/Views/OverviewPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TimesNewsApp.Views.OverviewPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/OverviewPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/OverviewPage.xaml

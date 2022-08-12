@@ -1,59 +1,59 @@
 ﻿<Properties StartupConfiguration="{CABFCFA9-357E-4DBC-B602-A3B5E57EDD38}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/admin/Projects/TimesNewsApp/TimesNewsApp/ViewModels/MoviesViewModel.cs" relfile="ViewModels/MoviesViewModel.cs" line="42" column="1" />
-      <Breakpoint file="/Users/admin/Projects/TimesNewsApp/TimesNewsApp/ViewModels/MovieGenreListPageViewModel.cs" relfile="ViewModels/MovieGenreListPageViewModel.cs" line="39" column="1" />
-      <Breakpoint file="/Users/admin/Projects/TimesNewsApp/TimesNewsApp/ViewModels/MovieGenreListPageViewModel.cs" relfile="ViewModels/MovieGenreListPageViewModel.cs" line="40" column="1" />
-      <Breakpoint file="/Users/admin/Projects/TimesNewsApp/TimesNewsApp/ViewModels/MovieGenreListPageViewModel.cs" relfile="ViewModels/MovieGenreListPageViewModel.cs" line="36" column="1" />
-      <Breakpoint file="/Users/admin/Projects/TimesNewsApp/TimesNewsApp/ViewModels/MovieGenreListPageViewModel.cs" relfile="ViewModels/MovieGenreListPageViewModel.cs" line="45" column="1" />
-      <Breakpoint file="/Users/admin/Projects/TimesNewsApp/TimesNewsApp/ViewModels/MovieGenreListPageViewModel.cs" relfile="ViewModels/MovieGenreListPageViewModel.cs" line="10" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Movie-App PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D403C2E8-A395-4700-8475-2209747B07DD" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.0.0.0" />
   <MultiItemStartupConfigurations />
   <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/OverviewPage.xaml">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <Breakpoint file="/Users/admin/Projects/TimesNewsApp/TimesNewsApp/ViewModels/MoviesViewModel.cs" relfile="ViewModels/MoviesViewModel.cs" line="42" column="1" />
+    <Breakpoint file="/Users/admin/Projects/TimesNewsApp/TimesNewsApp/ViewModels/MovieGenreListPageViewModel.cs" relfile="ViewModels/MovieGenreListPageViewModel.cs" line="39" column="1" />
+    <Breakpoint file="/Users/admin/Projects/TimesNewsApp/TimesNewsApp/ViewModels/MovieGenreListPageViewModel.cs" relfile="ViewModels/MovieGenreListPageViewModel.cs" line="40" column="1" />
+    <Breakpoint file="/Users/admin/Projects/TimesNewsApp/TimesNewsApp/ViewModels/MovieGenreListPageViewModel.cs" relfile="ViewModels/MovieGenreListPageViewModel.cs" line="36" column="1" />
+    <Breakpoint file="/Users/admin/Projects/TimesNewsApp/TimesNewsApp/ViewModels/MovieGenreListPageViewModel.cs" relfile="ViewModels/MovieGenreListPageViewModel.cs" line="45" column="1" />
+    <Breakpoint file="/Users/admin/Projects/TimesNewsApp/TimesNewsApp/ViewModels/MovieGenreListPageViewModel.cs" relfile="ViewModels/MovieGenreListPageViewModel.cs" line="10" column="1" />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/MovieListGenrePage.xaml">
     <Files>
-      <File FileName="Views/OverviewPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="MauiProgram.cs" Line="33" Column="70" />
-      <File FileName="Services/NewsApiManager.cs" Line="47" Column="50" />
-      <File FileName="ViewModels/BaseViewModel.cs" Line="12" Column="9" />
-      <File FileName="Views/MovieSearchPage.xaml.cs" Line="9" Column="3" />
-      <File FileName="MainPage.xaml.cs" Line="15" Column="1" />
-      <File FileName="ViewModels/OverviewPageViewModel.cs" Line="37" Column="13" />
-      <File FileName="ViewModels/SearchMoviePageViewModel.cs" Line="59" Column="26" />
-      <File FileName="Models/Genre.cs" Line="15" Column="1" />
-      <File FileName="Services/FileService.cs" Line="15" Column="1" />
-      <File FileName="Views/MovieDetailsPage.xaml.cs" Line="10" Column="3" />
-      <File FileName="Platforms/iOS/Program.cs" Line="15" Column="2" />
-      <File FileName="ViewModels/PopularMoviePageViewModel.cs" Line="34" Column="10" />
-      <File FileName="ViewModels/MovieListGenrePageViewModel.cs" Line="32" Column="1" />
-      <File FileName="MainPage.xaml" Line="26" Column="62" />
-      <File FileName="AppShell.xaml" Line="1" Column="1" />
-      <File FileName="App.xaml" Line="41" Column="1" />
-      <File FileName="Views/MovieSearchPage.xaml" Line="1" Column="1" />
-      <File FileName="Views/MovieDetailsPage.xaml" Line="26" Column="103" />
-      <File FileName="Views/OverviewPage.xaml" Line="10" Column="6" />
-      <File FileName="Views/MovieListGenrePage.xaml" Line="28" Column="65" />
-      <File FileName="AppShell.xaml.cs" Line="13" Column="1" />
-      <File FileName="Resources/Raw/genrelist.json" Line="90" Column="18" />
+      <File FileName="Views/OverviewPage.xaml.cs" />
+      <File FileName="MauiProgram.cs" />
+      <File FileName="Services/NewsApiManager.cs" />
+      <File FileName="ViewModels/BaseViewModel.cs" />
+      <File FileName="Views/MovieSearchPage.xaml.cs" />
+      <File FileName="MainPage.xaml.cs" />
+      <File FileName="ViewModels/OverviewPageViewModel.cs" />
+      <File FileName="ViewModels/SearchMoviePageViewModel.cs" />
+      <File FileName="Models/Genre.cs" />
+      <File FileName="Services/FileService.cs" />
+      <File FileName="Views/MovieDetailsPage.xaml.cs" />
+      <File FileName="Platforms/iOS/Program.cs" />
+      <File FileName="ViewModels/PopularMoviePageViewModel.cs" />
+      <File FileName="ViewModels/MovieListGenrePageViewModel.cs" />
+      <File FileName="AppShell.xaml.cs" />
+      <File FileName="Resources/Raw/genrelist.json" />
+      <File FileName="../../../../../usr/local/share/dotnet/packs/Microsoft.Maui.Resizetizer.Sdk/6.0.312/targets/Microsoft.Maui.Resizetizer.targets" Line="1" Column="1" />
+      <File FileName="MainPage.xaml" />
+      <File FileName="AppShell.xaml" />
+      <File FileName="Views/MovieSearchPage.xaml" />
+      <File FileName="Views/MovieDetailsPage.xaml" />
+      <File FileName="Views/OverviewPage.xaml" />
+      <File FileName="Views/MovieListGenrePage.xaml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TimesNewsApp" expanded="True">
             <Node name="TimesNewsApp" expanded="True">
-              <Node name="Views" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="AppIcon" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="MovieListGenrePage.xaml" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.TimesNewsApp PreferredExecutionTarget="MyAppleMacCatalystID" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.0.0.0" />
 </Properties>
